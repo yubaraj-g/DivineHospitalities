@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
 
 body {
   margin: 0;
@@ -36,7 +37,29 @@ h1 {
 }
 .welcomeText {
   margin-top: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.supportLineDiv {
   padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 800px;
+  border-top: 1px solid #C1D5A4;
+}
+.supportLineDiv span {
+  font-family: 'Corinthia', cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #C1D5A4;
+}
+.text3rd {
+  margin-top: 4rem;
+}
+.text3rd span {
+  font-family: 'Corinthia', cursive;
+  font-size: 36px;
+  color: white;
 }
 
 nav {
@@ -83,4 +106,63 @@ li {
   margin: auto 0;
   color: white;
   text-decoration: none;
+}
+
+.cardContainer {
+  width: 100%;
+  display: flex;
+  padding-left: 11rem;
+  padding-right: 11rem;
+  margin-top: 1rem;
+  justify-content: space-between;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 160px;
+  background-color: #71774425;
+  margin: 10px;
+  backdrop-filter: blur(20px);
+  box-shadow: 4px 4px 0 #C1D5A4;
+}
+.child1 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 50px;
+  align-items: center;
+  font-family: 'Ceviche One', cursive;
+  font-size: 20px;
+  letter-spacing: 10%;
+}
+.child2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110px;
+  font-family: 'corinthia', cursive;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 10%;
+}
+.child1 span{
+  display: flex;
+}
+
+.card:hover{
+  margin: 14px 6px 6px 14px;
+  box-shadow: none;
+  background-color: #C1D5A4;
+  transition-duration: 0.1s;
+  color: #242424;
+}
+
+.cardDisabled {
+  box-shadow: none;
+}
+.cardDisabled:hover{
+  margin: 10px;
+  background-color: #71774425;
+  color: white;
 }
