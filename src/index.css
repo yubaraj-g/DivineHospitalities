@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +7,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url("./img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 * {
@@ -13,40 +19,48 @@ body {
   box-sizing: border-box;
 }
 
-/* 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} 
-*/
-
 h1 {
+  display: flex;
+  justify-content: center;
   padding: 10px auto;
   margin: auto;
+  color: #C1D5A4;
+}
+.hero {
+  margin-top: 3rem;
+}
+.homeh1 {
+  font-family: 'Ceviche One', cursive;
+  font-size: 36px;
+  color: #C1D5A4;
+}
+.welcomeText {
+  margin-top: 1rem;
+  padding-top: 1rem;
 }
 
 nav {
   display: flex;
   margin: 0;
-  padding: 0 7rem;
-  background-color: #242424;
+  padding: 0 2rem;
+  background-color: #24242400;
   color: white;
   height: 70px;
   justify-content: space-between;
   justify-items: center;
 }
 
-nav span {
+/* nav span {
   display: flex;
   justify-items: center;
   margin: auto 0;
   cursor: pointer;
-}
+} */
 
 ul {
   display: flex;
   margin: 0;
-  width: 40%;
+  gap: 3rem;
   justify-content: space-between;
 }
 
@@ -54,6 +68,8 @@ li {
   display: flex;
   justify-items: center;
   color: white;
+  font-family: 'Ceviche One', cursive;
+  font-size: 18px;
 }
 
 .nav-links {
