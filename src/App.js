@@ -1,6 +1,5 @@
 import './App.css';
 import Nav from './components/Nav';
-// import Dumplings from './components/Dumplings';
 import { Routes, Route } from 'react-router-dom';
 import About from './components/About'
 import Dumplings from './components/Dumplings'
