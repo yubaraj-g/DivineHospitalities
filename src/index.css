@@ -7,7 +7,56 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} 
+*/
+
+h1 {
+  padding: 10px auto;
+  margin: auto;
+}
+
+nav {
+  display: flex;
+  margin: 0;
+  padding: 0 7rem;
+  background-color: #242424;
+  color: white;
+  height: 70px;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+nav span {
+  display: flex;
+  justify-items: center;
+  margin: auto 0;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  width: 40%;
+  justify-content: space-between;
+}
+
+li {
+  display: flex;
+  justify-items: center;
+}
+
+a {
+  display: flex;
+  margin: auto 0;
+  color: white;
+  text-decoration: none;
 }
