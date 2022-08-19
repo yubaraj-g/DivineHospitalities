@@ -40,6 +40,7 @@ nav span {
   display: flex;
   justify-items: center;
   margin: auto 0;
+  cursor: pointer;
 }
 
 ul {
@@ -52,10 +53,17 @@ ul {
 li {
   display: flex;
   justify-items: center;
+  color: white;
 }
 
-a {
+.nav-links {
   display: flex;
+  margin: auto 0;
+  color: white;
+  text-decoration: none;
+}
+
+.logo {
   margin: auto 0;
   color: white;
   text-decoration: none;
