@@ -4,7 +4,7 @@ import Logo from '../img/LogoText.png'
 
 function Nav() {
   return (
-    <nav>
+    <nav style={{ position: "relative", zIndex: "999" }}>
       <Link to="/" className="logo"><img src={Logo} alt="DIVINE" /></Link>
       <ul>
         <li>

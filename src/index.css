@@ -28,7 +28,8 @@ h1 {
   color: #C1D5A4;
 }
 .hero {
-  margin-top: 3rem;
+  margin-top: 0;
+  padding-top: 8rem;
 }
 .homeh1 {
   font-family: 'Ceviche One', cursive;
@@ -64,13 +65,14 @@ h1 {
 
 nav {
   display: flex;
-  margin: 0;
+  /* margin: 0 0 -70px 0; */
   padding: 0 2rem;
-  background-color: #24242400;
+  background-color: #24242490;
   color: white;
   height: 70px;
   justify-content: space-between;
   justify-items: center;
+  z-index: 999;
 }
 
 /* nav span {

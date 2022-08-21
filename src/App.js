@@ -1,5 +1,5 @@
 import './App.css';
-import Nav from './components/Nav';
+// import Nav from './components/Nav';
 import { Routes, Route } from 'react-router-dom';
 import About from './components/About'
 import Dumplings from './components/Dumplings'
@@ -9,7 +9,6 @@ import Home from './components/Home'
 function App() {
   return (
     <div className="App">
-      <Nav />
       <Routes>
         <Route exact path='/' element={<Home />} />
         <Route path="/about" element={<About />} />
