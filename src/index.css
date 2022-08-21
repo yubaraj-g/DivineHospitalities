@@ -67,7 +67,7 @@ nav {
   display: flex;
   /* margin: 0 0 -70px 0; */
   padding: 0 2rem;
-  background-color: #24242490;
+  background-color: #24242400;
   color: white;
   height: 70px;
   justify-content: space-between;
@@ -102,6 +102,12 @@ li {
   margin: auto 0;
   color: white;
   text-decoration: none;
+  padding: 10px 0 10px 0;
+}
+.nav-links:hover {
+  border-bottom: 3px solid #717744;
+  padding-bottom: 7px;
+  transition-duration: 0.3s;
 }
 
 .logo {

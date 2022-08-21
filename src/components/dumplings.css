@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+
 .heroSection {
     margin-top: -70px;
 }
@@ -16,9 +20,10 @@
     transform: translateY(-50%);
     background: none;
     cursor: pointer;
+    border: none;
 }
 .arrow:hover {
-    background-color: black;
+    background-color: #0000003d;
     transition-duration: 0.1s;
 }
 
@@ -31,4 +36,21 @@
 }
 
 
-
+.heroNav {
+    padding: 0 10rem 0 10rem;
+}
+.heroNav .navUL > li{
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+}
+.heroNav .logo > span {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #717744;
+    font-weight: 800;
+    display: flex;
+    width: 100px;
+    word-wrap: break-word;
+    text-align: start;
+}

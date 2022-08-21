@@ -3,7 +3,7 @@ import "./dumplings.css";
 import { useState } from "react";
 import heroimg1 from "../img/heroimg1.jpg";
 import heroimg2 from "../img/heroimg2.png";
-import Nav from "./Nav";
+import NavDumplings from "./NavDumplings";
 
 function Dumplings() {
   const [selectedImg, setSelectedImg] = useState(0);
@@ -11,42 +11,62 @@ function Dumplings() {
 
   return (
     <>
-      <Nav />
+      <NavDumplings />
+
       <div
         className="heroSection"
         style={{ position: "relative", zIndex: "888" }}
       >
         <img src={allImages[selectedImg]} alt="" className="carousel" />
 
-        <button className="arrow leftArrow"
+        <button
+          className="arrow leftArrow"
           onClick={() => {
             if (selectedImg > 0) {
               setSelectedImg(selectedImg - 1);
             }
+            // else if (selectedImg === 0) {
+            //   setSelectedImg(`allImages[allImages.length - 1]`);
+            // }
           }}
         >
           <svg
-            width="40"
-            height="40"
+            width="50"
+            height="50"
             viewBox="0 0 80 80"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M50 60L30 40L50 20"
-              stroke="white"
-              stroke-width="3"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              d="M51.3666 55.3L36.1 40L51.3666 24.7L46.6666 20L26.6666 40L46.6666 60L51.3666 55.3Z"
+              fill="white"
             />
           </svg>
         </button>
 
-        <button className="arrow rightArrow"
-        onClick={()=> {
-          
-        }}>
-
+        <button
+          className="arrow rightArrow"
+          onClick={() => {
+            if (selectedImg < allImages.length - 1) {
+              setSelectedImg(selectedImg + 1);
+            }
+            // else if (selectedImg === allImages.length - 1) {
+            //   setSelectedImg(selectedImg[0]);
+            // }
+          }}
+        >
+          <svg
+            width="50"
+            height="50"
+            viewBox="0 0 80 80"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M28.6333 55.3L43.9 40L28.6333 24.7L33.3333 20L53.3333 40L33.3333 60L28.6333 55.3Z"
+              fill="white"
+            />
+          </svg>
         </button>
       </div>
     </>
