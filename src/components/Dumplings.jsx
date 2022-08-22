@@ -25,9 +25,9 @@ function Dumplings() {
             if (selectedImg > 0) {
               setSelectedImg(selectedImg - 1);
             }
-            // else if (selectedImg === 0) {
-            //   setSelectedImg(`allImages[allImages.length - 1]`);
-            // }
+            else if (selectedImg === 0) {
+              setSelectedImg(allImages.length - 1);
+            }
           }}
         >
           <svg
@@ -50,9 +50,9 @@ function Dumplings() {
             if (selectedImg < allImages.length - 1) {
               setSelectedImg(selectedImg + 1);
             }
-            // else if (selectedImg === allImages.length - 1) {
-            //   setSelectedImg(selectedImg[0]);
-            // }
+            else if (selectedImg === allImages.length - 1) {
+              setSelectedImg(0);
+            }
           }}
         >
           <svg
