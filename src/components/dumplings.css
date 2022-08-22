@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
 .heroSection {
     margin-top: -70px;
 }
@@ -108,7 +110,7 @@
 
 @keyframes slideinfromtop {
     from {
-        margin-top: -100%;
+        margin-top: -70%;
         width: 100%;
         opacity: -200%;
     }
@@ -153,6 +155,10 @@
     transition-duration: 0.3s;
 }
 
+.menuBtn .link{
+    color: black;
+}
+
 .txtWithBtn .text {
     color: white;
     font-weight: 100;
@@ -170,4 +176,58 @@
         width: 100%;
         opacity: 100%;
     }
+}
+
+.hero2 {
+    display: flex;
+    justify-content: center;
+    padding: 15rem 5rem 5rem 5rem;
+    gap: 5rem;
+}
+.hero .leftImg {
+    width: 400px;
+}
+
+.rightTexts {
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+}
+
+.rightTexts > h1 {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: 'Inter',sans-serif;
+    line-height: 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: start;
+    width: 300px;
+}
+
+.rightTexts > h6 {
+    padding: 2rem 0 2rem 0;
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid #717744;
+    font-weight: 300;
+    font-size: 14px;
+    color: #717744;
+}
+
+.paragraph {
+    line-height: 1.2rem;
+    margin-top: 1rem;
+    font-size: 12px;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+
+.signature {
+    margin-top: 1.5rem;
+    text-align: left;
+    font-family: 'Dancing Script', cursive;
+    font-size: 32px;
 }

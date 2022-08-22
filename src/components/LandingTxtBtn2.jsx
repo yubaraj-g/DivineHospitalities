@@ -10,7 +10,9 @@ function LandingTxtBtn2() {
         tempor incididunt ut
       </p>
       <div className="btnWrapper">
-        <button className="menuBtn">Check Full Menu</button>
+        <button className="menuBtn">
+          <Link to="/menu" className="link">Check Full Menu</Link>
+        </button>
       </div>
     </div>
   );

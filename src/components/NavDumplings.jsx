@@ -18,27 +18,27 @@ function NavDumplings() {
             </Link>
           </li>
           <li>
-            <Link to="/menu" className="nav-links">
+            <Link to="/coming-soon" className="nav-links">
               Menu
             </Link>
           </li>
           <li>
-            <Link to="/about-resturant" className="nav-links">
+            <Link to="/coming-soon" className="nav-links">
               About the Resturant
             </Link>
           </li>
           <li>
-            <Link to="/about-company" className="nav-links">
+            <Link to="/coming-soon" className="nav-links">
               About the Company
             </Link>
           </li>
           <li>
-            <Link to="/contact" className="nav-links">
+            <Link to="/coming-soon" className="nav-links">
               Contact us
             </Link>
           </li>
           <li>
-            <Link to="/reservation" className="nav-links">
+            <Link to="/coming-soon" className="nav-links">
               Reservation
             </Link>
           </li>

@@ -4,6 +4,7 @@ import heroimg1 from "../img/heroimg1.jpg";
 import heroimg2 from "../img/heroimg2.png";
 import NavDumplings from "./NavDumplings";
 import LandingTxtBtn1 from "./LandingTxtBtn1";
+import HeroSection2 from "./HeroSection2";
 // import LandingTxtBtn2 from "./LandingTxtBtn2";
 
 function Dumplings() {
@@ -13,21 +14,29 @@ function Dumplings() {
 
   useEffect(() => {
     setInterval(() => {
-      setSelectedImg((selectedImg) => (selectedImg < 1 ? selectedImg + 1 : 0));
-    }, 4000);
+      setSelectedImg((selectedImg) =>
+        selectedImg < allImages.length - 1 ? selectedImg + 1 : 0
+      );
+    }, 3000);
   }, []);
 
   return (
     <>
+      {/* Navbar Here for Divine Dumplings */}
       <NavDumplings />
 
+      {/* Hero Section Here For Divine Dumplings */}
       <div
         className="heroSection"
         style={{ position: "relative", zIndex: "555" }}
       >
         <LandingTxtBtn1 />
 
-        <img src={allImages[selectedImg]} alt="" className="carousel" />
+        <img
+          src={allImages[selectedImg]}
+          alt="heroImages"
+          className="carousel"
+        />
 
         <button
           className="arrow leftArrow"
@@ -78,9 +87,21 @@ function Dumplings() {
             />
           </svg>
         </button>
-
-        
       </div>
+      {/* Hero Section Closed */}
+
+      {/* Hero Section 2 Starts */}
+      <HeroSection2 />
+
+      {/* Chef Recommendation Starts */}
+
+      {/* Popular Dishes Starts */}
+
+      {/* Gallery Starts */}
+
+      {/* Chef List Starts */}
+      
+      {/* Footer Here and Page Ends */}
     </>
   );
 }
