@@ -1,16 +1,21 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./dumplings.css";
-import { useState } from "react";
 import heroimg1 from "../img/heroimg1.jpg";
 import heroimg2 from "../img/heroimg2.png";
 import NavDumplings from "./NavDumplings";
 import LandingTxtBtn1 from "./LandingTxtBtn1";
-import LandingTxtBtn2 from "./LandingTxtBtn2";
+// import LandingTxtBtn2 from "./LandingTxtBtn2";
 
 function Dumplings() {
   const [selectedImg, setSelectedImg] = useState(0);
   const [allImages, setAllImages] = useState([heroimg1, heroimg2]);
-  const [textBtn, setTextBtn] = useState()
+  // const [textBtn, setTextBtn] = useState()
+
+  useEffect(() => {
+    setInterval(() => {
+      setSelectedImg((selectedImg) => (selectedImg < 1 ? selectedImg + 1 : 0));
+    }, 4000);
+  }, []);
 
   return (
     <>
@@ -20,20 +25,19 @@ function Dumplings() {
         className="heroSection"
         style={{ position: "relative", zIndex: "555" }}
       >
-        <img src={allImages[selectedImg]} alt="" className="carousel" />
+        <LandingTxtBtn1 />
 
-        
+        <img src={allImages[selectedImg]} alt="" className="carousel" />
 
         <button
           className="arrow leftArrow"
           onClick={() => {
             if (selectedImg > 0) {
               setSelectedImg(selectedImg - 1);
-              <LandingTxtBtn1 />
-            }
-            else if (selectedImg === 0) {
+              // <LandingTxtBtn1 />
+            } else if (selectedImg === 0) {
               setSelectedImg(allImages.length - 1);
-              <LandingTxtBtn2 />
+              // <LandingTxtBtn2 />
             }
           }}
         >
@@ -56,8 +60,7 @@ function Dumplings() {
           onClick={() => {
             if (selectedImg < allImages.length - 1) {
               setSelectedImg(selectedImg + 1);
-            }
-            else if (selectedImg === allImages.length - 1) {
+            } else if (selectedImg === allImages.length - 1) {
               setSelectedImg(0);
             }
           }}
@@ -75,6 +78,8 @@ function Dumplings() {
             />
           </svg>
         </button>
+
+        
       </div>
     </>
   );

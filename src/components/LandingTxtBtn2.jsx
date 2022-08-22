@@ -1,14 +1,19 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
 function LandingTxtBtn2() {
   return (
-    <div className='txtBtn2'>
-      <h1>Art Of Cooking</h1>
-      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut </span>
-      <Link to="/menu">Check Full Menu</Link>
+    <div className="txtWithBtn">
+      <p className="headline">Divine Dumplings</p>
+      <p className="text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut
+      </p>
+      <div className="btnWrapper">
+        <button className="menuBtn">Check Full Menu</button>
+      </div>
     </div>
-  )
+  );
 }
 
-export default LandingTxtBtn2
+export default LandingTxtBtn2;
