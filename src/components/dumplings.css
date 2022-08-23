@@ -244,3 +244,7 @@
 .footer {
     font-family: 'Raleway';
 }
+
+.social-icons > div {
+    transition-duration: 0.3s;
+}

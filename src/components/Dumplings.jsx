@@ -16,9 +16,9 @@ function Dumplings() {
   useEffect(() => {
     setInterval(() => {
       setSelectedImg((selectedImg) =>
-        selectedImg < allImages.length - 1 ? selectedImg + 1 : 0
+        selectedImg < 1 ? selectedImg + 1 : 0
       );
-    }, 3000);
+    }, 4000);
   }, []);
 
   return (
@@ -46,7 +46,7 @@ function Dumplings() {
               setSelectedImg(selectedImg - 1);
               // <LandingTxtBtn1 />
             } else if (selectedImg === 0) {
-              setSelectedImg(allImages.length - 1);
+              setSelectedImg(1);
               // <LandingTxtBtn2 />
             }
           }}

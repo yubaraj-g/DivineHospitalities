@@ -11,7 +11,7 @@ function LandingTxtBtn1() {
       </p>
       <div className="btnWrapper">
         <button className="menuBtn">
-          <Link to="/coming-soon" className="link">Check Full Menu</Link>
+          <Link to="/coming-soon" className="link text-sm">Check Full Menu</Link>
         </button>
       </div>
     </div>
