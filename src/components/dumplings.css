@@ -8,9 +8,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
 
-.heroSection {
+/* .heroSection {
     margin-top: -70px;
-}
+} */
 
 .heroSection>img {
     display: flex;
@@ -19,11 +19,12 @@
     height: 100%;
 }
 
-.heroSection > img {
+.heroSection>img {
     animation-name: slideinfromright;
     animation-duration: 1s;
     animation-timing-function: linear;
 }
+
 @keyframes slideinfromright {
     from {
         margin-right: -100%;
@@ -61,16 +62,24 @@
 
 .heroNav {
     padding: 0 10rem 0 10rem;
+    height: 70px;
+    justify-content: space-between;
+    justify-items: center;
+    margin-bottom: -70px;
+    width: 100%;
+    z-index: 999;
+    backdrop-filter: blur(50px);
+    background-color: #0000003d;
 }
 
 .heroNav .navUL>li {
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 12px;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .heroNav .logo>span {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 16px;
     color: #717744;
     font-weight: 800;
@@ -130,11 +139,13 @@
     display: flex;
     align-self: center;
 }
+
 @keyframes fadein {
     from {
         margin-bottom: -20%;
         opacity: -500%;
     }
+
     to {
         margin-bottom: 0%;
         opacity: 100%;
@@ -145,19 +156,20 @@
     background-color: none;
     border: none;
     padding: 15px 20px 15px 20px;
-    font-family: 'Inter';
+    font-family: 'Raleway';
     display: flex;
     align-self: center;
     background-color: #FFD540;
     cursor: pointer;
 }
+
 .menuBtn:hover {
     background-color: #fff;
     box-shadow: 10px 10px 40px #00000060;
     transition-duration: 0.3s;
 }
 
-.menuBtn .link{
+.menuBtn .link {
     color: black;
 }
 
@@ -167,12 +179,14 @@
     animation-name: leftslide;
     animation-duration: 2s;
 }
+
 @keyframes leftslide {
     from {
         margin-left: -100%;
         width: 100%;
         opacity: -300%;
     }
+
     to {
         margin-left: 0%;
         width: 100%;
@@ -186,6 +200,7 @@
     padding: 15rem 5rem 5rem 5rem;
     gap: 5rem;
 }
+
 .hero .leftImg {
     width: 400px;
 }
@@ -196,11 +211,11 @@
     background-color: #fff;
 }
 
-.rightTexts > h1 {
+.rightTexts>h1 {
     display: flex;
     flex-direction: column;
     margin: 0;
-    font-family: 'Inter',sans-serif;
+    font-family: 'Raleway', sans-serif;
     line-height: 2rem;
     font-size: 20px;
     font-weight: bold;
@@ -209,7 +224,7 @@
     width: 300px;
 }
 
-.rightTexts > h6 {
+.rightTexts>h6 {
     padding: 2rem 0 2rem 0;
     display: flex;
     justify-content: start;
@@ -223,7 +238,7 @@
     line-height: 1.2rem;
     margin-top: 1rem;
     font-size: 12px;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Raleway', sans-serif;
     text-align: left;
 }
 
@@ -245,6 +260,6 @@
     font-family: 'Raleway';
 }
 
-.social-icons > div {
+.social-icons>div {
     transition-duration: 0.3s;
 }

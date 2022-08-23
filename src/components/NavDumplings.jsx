@@ -6,8 +6,8 @@ import "./dumplings.css";
 function NavDumplings() {
   return (
     <>
-      <nav style={{ position: "relative", zIndex: "999" }} className="heroNav" id="navDumplings">
-        <Link to="/divine-dumplings" className="logo">
+      <nav style={{ position: "fixed", zIndex: "999" }} className="heroNav" id="navDumplings">
+        <Link to="/" className="logo">
           {/* <img src={Logo} alt="DIVINE" /> */}
           <span>DIVINE DUMPLINGS</span>
         </Link>

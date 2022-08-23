@@ -28,14 +28,14 @@ function Home() {
               <div className="child2">www.divinedumplings.com</div>
             </div>
           </Link>
-          <Link to="/divine-dumplings" className="nav-links body-links">
+          <Link to="/coming-soon" className="nav-links body-links">
             <div className="card cardDisabled">
               <div className="child1">Coming Soon</div>
               <hr />
               <div className="child2">Coming Soon...</div>
             </div>
           </Link>
-          <Link to="/divine-dumplings" className="nav-links body-links">
+          <Link to="/coming-soon" className="nav-links body-links">
             <div className="card cardDisabled">
               <div className="child1">Coming Soon</div>
               <hr />

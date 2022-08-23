@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Ceviche+One&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
 
 body {
@@ -33,8 +33,9 @@ h1 {
   padding-top: 8rem;
 }
 .homeh1 {
-  font-family: 'Ceviche One', cursive;
-  font-size: 36px;
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-weight: 900;
   color: #C1D5A4;
 }
 .welcomeText {
@@ -59,8 +60,9 @@ h1 {
   margin-top: 4rem;
 }
 .text3rd span {
-  font-family: 'Corinthia', cursive;
-  font-size: 36px;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 200;
   color: white;
 }
 
@@ -94,8 +96,9 @@ li {
   display: flex;
   justify-items: center;
   color: white;
-  font-family: 'Ceviche One', cursive;
-  font-size: 18px;
+  font-family: 'Raleway', cursive;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .nav-links {
@@ -109,7 +112,7 @@ li {
   border-bottom: 1px solid #717744;
   padding-bottom: 6px;
   color: #717744;
-  transition-duration: 0.3s;
+  transition-duration: 0;
 }
 
 .logo {
@@ -126,11 +129,12 @@ li {
   margin-top: 1rem;
   justify-content: space-between;
 }
-.card {
+.card:hover {
   display: flex;
   flex-direction: column;
   width: 300px;
   height: 160px;
+  color: white;
   background-color: #71774425;
   margin: 10px;
   backdrop-filter: blur(20px);
@@ -142,8 +146,9 @@ li {
   width: 100%;
   height: 50px;
   align-items: center;
-  font-family: 'Ceviche One', cursive;
-  font-size: 20px;
+  font-family: 'Raleway';
+  font-size: 12px;
+  font-weight: 600;
   letter-spacing: 10%;
 }
 .child2 {
@@ -151,8 +156,8 @@ li {
   justify-content: center;
   align-items: center;
   height: 110px;
-  font-family: 'corinthia', cursive;
-  font-size: 24px;
+  font-family: 'Raleway';
+  font-size: 18px;
   font-weight: 700;
   letter-spacing: 10%;
 }
@@ -160,8 +165,10 @@ li {
   display: flex;
 }
 
-.card:hover{
+.card{
   margin: 14px 6px 6px 14px;
+  width: 300px;
+  height: 160px;
   box-shadow: none;
   background-color: #C1D5A4;
   transition-duration: 0.1s;
@@ -174,7 +181,8 @@ li {
 .cardDisabled:hover{
   margin: 10px;
   background-color: #71774425;
-  color: white;
+  color: #242424;
+  box-shadow: none;
 }
 
 .bg-white {

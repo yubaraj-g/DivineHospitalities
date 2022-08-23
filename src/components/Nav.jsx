@@ -1,20 +1,31 @@
 import React from "react";
-import {Link} from 'react-router-dom'
-import Logo from '../img/LogoText.png'
+import { Link } from "react-router-dom";
+import Logo from "../img/LogoText.png";
 
 function Nav() {
   return (
-    <nav style={{ position: "relative", zIndex: "999" }}>
-      <Link to="/" className="logo"><img src={Logo} alt="DIVINE" /></Link>
+    <nav
+      style={{ position: "fixed", zIndex: "999" }}
+      className="flex justify-between w-full"
+    >
+      <Link to="/" className="logo">
+        <img src={Logo} alt="DIVINE" />
+      </Link>
       <ul>
         <li>
-          <Link to="/" className="nav-links">Home</Link>
+          <Link to="/" className="nav-links">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/about" className="nav-links">About us</Link>
+          <Link to="/coming-soon" className="nav-links">
+            About us
+          </Link>
         </li>
         <li>
-          <Link to="/Contact" className="nav-links">Contact us</Link>
+          <Link to="/coming-soon" className="nav-links">
+            Contact us
+          </Link>
         </li>
       </ul>
     </nav>
