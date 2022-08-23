@@ -5,7 +5,7 @@ function ComingSoon() {
   return (
     <div className='comingSoon bg-black'>
       <NavDumplings />
-      <h1>Coming Soon</h1>
+      <h1 className='text-4xl font-bold'>Coming Soon</h1>
     </div>
   )
 }

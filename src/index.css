@@ -10,7 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   /* background-image: url("./img/bg.jpg"); */
-  background-color: #1e1e1e;
+  background-color: #000;
   background-repeat: no-repeat;
   background-size: 100%;
 }
