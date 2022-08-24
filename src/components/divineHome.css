@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600;700&family=Raleway:wght@600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600;700;900&display=swap');
+
+.homeCanvas {
+    display: flex;
+    position: relative;
+    background-image: url(../img/bg-landing-page.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    z-index: 111;
+}
+
+.circle {
+    display: flex;
+    position: absolute;
+    width: 27%;
+    height: 58%;
+    border: 3px solid rgba(255, 0, 214, 0.4);
+    border-radius: 100rem;
+    top: 10%;
+    left: 25%;
+    box-shadow: 6px 6px 20px rgba(255, 0, 214, 0.2), -6px -6px 20px rgba(255, 0, 214, 0.2);
+    background-color: #00000000;
+    animation-name: glow;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes glow {
+    0%{
+        box-shadow: 6px 6px 20px rgba(255, 0, 214, 0.1), -6px -6px 20px rgba(255, 0, 214, 0.1);
+        border-color: rgba(255, 0, 214, 0.2);
+    }
+    50%{
+        box-shadow: 6px 6px 20px rgba(255, 213, 64, 0.3), -6px -6px 20px rgba(255, 213, 64, 0.2);
+        border-color: rgba(255, 213, 64, 0.4);
+    }
+    100%{
+        box-shadow: 6px 6px 20px rgba(255, 0, 214, 0.1), -6px -6px 20px rgba(255, 0, 214, 0.1);
+        border-color: rgba(255, 0, 214, 0.2);
+    }
+}
+
+.contactLink {
+    position: absolute;
+    top: 7%;
+    right: 4%;
+    margin: 0;
+    color:white;
+    width: 110px;
+    height: 54px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-align: end;
+}
+.contactLink .tiny1 {
+    border-top: 1px solid white;
+    height: 10px;
+}
+.contactLink .tiny2 {
+    height: 10px;
+    margin-left: 50%;
+    border-bottom: 1px solid white;
+}
+
+.animatedHeading1 {
+    display: flex;
+    position: absolute;
+    top: 15%;
+    left: 70%;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 180px;
+    font-weight: 900;
+    color: #00000000;
+    -webkit-text-stroke: 1px #FF00D6;
+    letter-spacing: 25px;
+    animation-name: leftRight;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes leftRight {
+    0% {
+        left: 80%;
+    }
+    50% {
+        left: 5%;
+    }
+    100% {
+        left: 80%;
+    }
+}
+
+.animatedHeading2 {
+    
+}
