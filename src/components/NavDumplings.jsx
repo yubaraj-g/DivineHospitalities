@@ -7,10 +7,12 @@ function NavDumplings() {
   return (
     <>
       <nav style={{ position: "fixed", zIndex: "999" }} className="heroNav" id="navDumplings">
+        
         <Link to="/" className="logo">
           {/* <img src={Logo} alt="DIVINE" /> */}
           <span>DIVINE DUMPLINGS</span>
         </Link>
+
         <ul className="navUL">
           <li>
             <Link to="/divine-dumplings" className="nav-links">
@@ -43,6 +45,7 @@ function NavDumplings() {
             </Link>
           </li>
         </ul>
+
       </nav>
     </>
   );
