@@ -118,6 +118,7 @@
     transform: translateY(-70%);
     transform: translateX(-50%);
     gap: 2rem;
+    text-align: center;
 }
 
 .headline {

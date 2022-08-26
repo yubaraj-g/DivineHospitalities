@@ -35,7 +35,7 @@ function NavDumplings() {
             </Link>
           </li>
           <li>
-            <Link to="/coming-soon" className="nav-links">
+            <Link to="/contact" className="nav-links">
               Contact us
             </Link>
           </li>

@@ -9,7 +9,7 @@ import clock from "../img/clock.png";
 
 function Footer() {
   return (
-    <div className="footer bg-white w-full flex flex-col">
+    <div className="footer bg-white w-full flex flex-col text-center">
       <div className="footer1 bg-[#C1D5A4] w-full h-[100px] flex items-center justify-between px-40">
         <div className="reservation gap-4">
           <span className="text-white font-bold mr-4 text-md">
