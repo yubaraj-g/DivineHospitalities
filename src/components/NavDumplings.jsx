@@ -39,11 +39,11 @@ function NavDumplings() {
               Contact us
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/coming-soon" className="nav-links">
               Reservation
             </Link>
-          </li>
+          </li> */}
         </ul>
 
       </nav>

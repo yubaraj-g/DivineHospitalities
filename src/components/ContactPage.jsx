@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import NavDumplings from "./NavDumplings";
 import "./contact.css";
 import { Link } from "react-router-dom";
@@ -10,8 +10,25 @@ import clock from "../img/clock.png";
 import clock2 from "../img/clock2.png";
 import phone2 from "../img/phone2.png";
 import mapPin from "../img/map-pin.png";
+import emailjs from '@emailjs/browser';
 
-function ContactPage() {
+const ContactPage = ()=> {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_ehq8dzo', 'template_yi09hpg', form.current, 'u_r3FrLrQhaYkxEQk')
+      .then((result) => {
+          console.log(result.text);
+          console.log("Message sent!");
+          alert('Email Sent');
+      }, (error) => {
+          console.log(error.text);
+          console.log('Message sending failed.');
+          alert('Email sending failed.');
+      });
+  }
+
   useEffect(() => {
     window.scrollTo({
       top: 0
@@ -39,7 +56,7 @@ function ContactPage() {
               felis.
             </p>
 
-            <form action="" className="w-full">
+            <form ref={form} onSubmit={sendEmail} action="" className="w-full">
               <div className="flex flex-col w-full w-[90%] mb-6 md:mb-0">
                 <label
                   htmlFor="grid-first-name"
@@ -49,9 +66,10 @@ function ContactPage() {
                 </label>
                 <input
                   type="text"
+                  name="user_name"
                   className="block w-full bg-gray-100 text-gray-800 text-sm border border-red-500 py-3 px-4 mb-3 focus:outline-none focus:bg-white"
                 />
-                <p class="text-red-500 text-xs italic">
+                <p className="text-red-500 text-xs italic">
                   Please fill out this field.
                 </p>
               </div>
@@ -65,9 +83,10 @@ function ContactPage() {
                 </label>
                 <input
                   type="email"
+                  name="user_email"
                   className="block w-full bg-white text-gray-800 text-sm border border-black py-3 px-4 mb-3 focus:outline-none focus:bg-white"
                 />
-                <p class="text-red-500 text-xs italic">
+                <p className="text-red-500 text-xs italic">
                   Please fill out this field.
                 </p>
               </div>
@@ -81,6 +100,7 @@ function ContactPage() {
                 </label>
                 <textarea
                   type="email"
+                  name="user_message"
                   className="block w-full bg-white text-gray-800 text-sm border border-black py-3 px-4 mb-3 focus:outline-none focus:bg-white"
                 ></textarea>
               </div>
@@ -89,7 +109,7 @@ function ContactPage() {
                 className="shadow bg-black hover:bg-gray-800 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 bottom-0 uppercase mt-8"
                 type="button"
               >
-                Send
+                <input type="submit" value="SEND" />
               </button>
             </form>
           </div>
@@ -169,9 +189,9 @@ function ContactPage() {
             width="100%"
             height="100%"
             style={{ border: 0 }}
-            allowfullscreen=""
+            allowFullScreen=""
             loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
+            referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </div>
       </div>
@@ -198,8 +218,8 @@ function ContactPage() {
                     d="M7.5 8.125C8.53553 8.125 9.375 7.28553 9.375 6.25C9.375 5.21447 8.53553 4.375 7.5 4.375C6.46447 4.375 5.625 5.21447 5.625 6.25C5.625 7.28553 6.46447 8.125 7.5 8.125Z"
                     fill="black"
                     stroke="black"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                   />
                 </svg>
                 78781008athgaon, near kc das commerce college, Chatribari,
