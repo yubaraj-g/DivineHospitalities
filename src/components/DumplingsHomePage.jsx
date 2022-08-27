@@ -9,6 +9,7 @@ import Footer from "./Footer";
 import ChefRecommend from './ChefRecommend';
 import PopularDishes from './PopularDishes';
 import GallerySection from "./GallerySection";
+import ChefsSection from "./ChefsSection";
 // import LandingTxtBtn2 from "./LandingTxtBtn2";
 
 function Dumplings() {
@@ -109,6 +110,7 @@ function Dumplings() {
       <GallerySection />
 
       {/* Chef List Starts */}
+      <ChefsSection />
 
       {/* Footer Here and Page Ends */}
       <Footer />

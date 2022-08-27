@@ -1,0 +1,30 @@
+.backgroundChefs {
+    background: url(../img/galleryBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 40%;
+}
+
+.chefsHeadline {
+    font-weight: 400;
+    font-family: 'Damion';
+    font-size: 48px;
+    background-color: #00000056;
+    height: 50%;
+}
+
+.backgroundChefs span {
+    background-color: #00000056;
+    height: 50%;
+    letter-spacing: 2px;
+    font-family: 'Raleway';
+}
+
+.theChefs {
+    font-family: 'Raleway';
+    letter-spacing: 1px;
+}
+
+.theChefs img {
+    object-fit: cover;
+}
