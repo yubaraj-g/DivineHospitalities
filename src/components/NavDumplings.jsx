@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./dumplings.css";
-import logo from '../img/logo-black.png'
+import logo from '../img/divinelogo40x40.png'
 import logoText from '../img/LogoText.png'
 
 
