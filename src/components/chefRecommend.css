@@ -1,0 +1,30 @@
+
+.backgroundChef {
+    background: url(../img/chefReccBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headingChef {
+    font-weight: 400;
+    font-family: 'Damion';
+    font-size: 46px;
+    background-color: #00000056;
+    height: 50%;
+}
+
+.backgroundChef span {
+    background-color: #00000056;
+    height: 50%;
+    letter-spacing: 2px;
+    font-family: 'Raleway';
+}
+
+.reccDishes {
+    margin-top: -40px;
+}
+
+.divDish1, .divDish2 {
+    gap: 3rem;
+    margin-bottom: 4rem;
+}

@@ -6,8 +6,7 @@ function LandingTxtBtn1() {
     <div className="txtWithBtn" style={{ zIndex: "888" }}>
       <p className="headline">Divine Dumplings</p>
       <p className="text">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut
+        Weaving appetizing stories with an assortment of different dishes
       </p>
       <div className="btnWrapper">
         <button className="menuBtn">

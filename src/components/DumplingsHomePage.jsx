@@ -6,6 +6,7 @@ import NavDumplings from "./NavDumplings";
 import LandingTxtBtn1 from "./LandingTxtBtn1";
 import HeroSection2 from "./HeroSection2";
 import Footer from "./Footer";
+import ChefRecommend from './ChefRecommend'
 // import LandingTxtBtn2 from "./LandingTxtBtn2";
 
 function Dumplings() {
@@ -98,6 +99,7 @@ function Dumplings() {
       <HeroSection2 />
 
       {/* Chef Recommendation Starts */}
+      <ChefRecommend />
 
       {/* Popular Dishes Starts */}
 

@@ -122,6 +122,12 @@
     gap: 2rem;
     text-align: center;
 }
+.txtWithBtn .text {
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: 200;
+}
 
 .headline {
     font-family: 'Damion', cursive;
@@ -129,7 +135,6 @@
     color: white;
     animation-duration: 2s;
     animation-name: slideinfromtop;
-    /* animation-timing-function: linear; */
 }
 
 @keyframes slideinfromtop {
@@ -210,7 +215,7 @@
 .hero2 {
     display: flex;
     justify-content: center;
-    padding: 15rem 5rem 5rem 5rem;
+    padding: 8rem 5rem 5rem 5rem;
     gap: 5rem;
 }
 
