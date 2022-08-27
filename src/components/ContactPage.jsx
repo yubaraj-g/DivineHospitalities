@@ -34,7 +34,7 @@ const ContactPage = ()=> {
   const pAlert = "Please fill out this field."
   
   const clearText = () => {
-    document.getElementById('userName', 'userEmail', 'userMessage').value = "";
+    document.getElementById('userName').value = "";
     document.getElementById('userEmail').value = "";
     document.getElementById('userMessage').value = "";
     // alert('text cleared');
