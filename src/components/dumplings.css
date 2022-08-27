@@ -62,24 +62,26 @@
 
 .heroNav {
     display: flex;
+    position: relative;
     padding: 0 10rem 0 10rem;
     height: 70px;
     justify-content: space-between;
-    justify-items: center;
+    align-items: center;
     margin-bottom: -70px;
     width: 100%;
-    backdrop-filter: blur(50px);
+    backdrop-filter: blur(30px);
     background-color: #0000003d;
 }
-
-.heroNav .logo {
+/* 
+.heroNav .logoDumpling {
     display: flex;
     position: relative;
+    align-items: center;
 }
 
-/* .navUL {
+.navUL {
     display: flex;
-    justify-self: flex-end;
+    position: relative;
 } */
 
 .heroNav .navUL>li {

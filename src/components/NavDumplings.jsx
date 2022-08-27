@@ -1,16 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import Logo from "../img/LogoText.png";
 import "./dumplings.css";
+import logo from '../img/logo-black.png'
+import logoText from '../img/LogoText.png'
+
 
 function NavDumplings() {
   return (
     <>
       <nav style={{ position: "fixed", zIndex: "999" }} className="heroNav" id="navDumplings">
         
-        <Link to="/" className="logo">
-          {/* <img src={Logo} alt="DIVINE" /> */}
-          <span>DIVINE DUMPLINGS</span>
+        <Link to="/" className="logoDumpling flex">
+          <img src={logo} alt="" className="w-[35px] mr-2 flex items-center my-auto" />
+          <img src={logoText} alt="" className="w-[70px] h-[22px] flex items-center my-auto" />
         </Link>
 
         <ul className="navUL">

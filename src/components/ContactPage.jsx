@@ -12,6 +12,7 @@ import phone2 from "../img/phone2.png";
 import mapPin from "../img/map-pin.png";
 import emailjs from '@emailjs/browser';
 
+
 const ContactPage = ()=> {
   const form = useRef();
   const sendEmail = (e) => {
@@ -22,11 +23,21 @@ const ContactPage = ()=> {
           console.log(result.text);
           console.log("Message sent!");
           alert('Email Sent');
+          clearText();
       }, (error) => {
           console.log(error.text);
           console.log('Message sending failed.');
           alert('Email sending failed.');
       });
+  }
+
+  const pAlert = "Please fill out this field."
+  
+  const clearText = () => {
+    document.getElementById('userName', 'userEmail', 'userMessage').value = "";
+    document.getElementById('userEmail').value = "";
+    document.getElementById('userMessage').value = "";
+    // alert('text cleared');
   }
 
   useEffect(() => {
@@ -67,10 +78,11 @@ const ContactPage = ()=> {
                 <input
                   type="text"
                   name="user_name"
+                  id="userName"
                   className="block w-full bg-gray-100 text-gray-800 text-sm border border-red-500 py-3 px-4 mb-3 focus:outline-none focus:bg-white"
                 />
-                <p className="text-red-500 text-xs italic">
-                  Please fill out this field.
+                <p className="text-red-500 text-xs italic" id="p-alert">
+                  {pAlert}
                 </p>
               </div>
 
@@ -84,10 +96,11 @@ const ContactPage = ()=> {
                 <input
                   type="email"
                   name="user_email"
+                  id="userEmail"
                   className="block w-full bg-white text-gray-800 text-sm border border-black py-3 px-4 mb-3 focus:outline-none focus:bg-white"
                 />
                 <p className="text-red-500 text-xs italic">
-                  Please fill out this field.
+                  {pAlert}
                 </p>
               </div>
 
@@ -101,15 +114,16 @@ const ContactPage = ()=> {
                 <textarea
                   type="email"
                   name="user_message"
+                  id="userMessage"
                   className="block w-full bg-white text-gray-800 text-sm border border-black py-3 px-4 mb-3 focus:outline-none focus:bg-white"
                 ></textarea>
               </div>
 
               <button
-                className="shadow bg-black hover:bg-gray-800 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 bottom-0 uppercase mt-8"
+                className="shadow bg-black hover:bg-gray-800 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 bottom-0 uppercase mt-8 cursor-pointer"
                 type="button"
               >
-                <input type="submit" value="SEND" />
+                <input type="submit" value="SEND" className="cursor-pointer" />
               </button>
             </form>
           </div>
@@ -137,18 +151,18 @@ const ContactPage = ()=> {
                   10 AM - 8 PM
                 </span>
                 <a
-                  href="tel:+919191919191"
+                  href="tel:+917575951000"
                   className="flex w-[80%] self-center text-sm mb-2 justify-center"
                 >
                   <img src={phone2} alt="" className="mr-1" />
-                  +91 9191919191
+                  +91 7575951000
                 </a>
                 <a
-                  href="tel:+919191919191"
+                  href="tel:+917575951000"
                   className="flex w-[80%] self-center text-sm mb-4 justify-center"
                 >
                   <img src={phone2} alt="" className="mr-1" />
-                  +91 9191919191
+                  +91 7575951000
                 </a>
                 <div className="w-[80%] h-[1px] bg-black flex self-center"></div>
               </div>
@@ -317,12 +331,12 @@ const ContactPage = ()=> {
             <span className="text-xs mb-2 flex justify-center">
               9 AM - 11 PM
             </span>
-            <span className="text-xs mb-2 flex justify-center">
-              +91 9999999999
-            </span>
-            <span className="text-xs mb-2 flex justify-center">
-              +91 9999999999
-            </span>
+            <a href="tel:+917575951000" className="text-xs mb-2 flex justify-center">
+              +91 7575951000
+            </a>
+            <a href="tel:+917575951000" className="text-xs mb-2 flex justify-center">
+              +91 7575951000
+            </a>
           </div>
         </div>
 
