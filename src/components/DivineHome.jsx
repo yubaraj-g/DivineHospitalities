@@ -28,7 +28,7 @@ function DivineHome() {
       <div className="bottomRight flex justify-center items-center cursor-pointer">
         <Link to="/" className="wrapper">
           <div className="flex wrapper2">
-            <span>Our Outlets</span>
+            <span>Explore Our Outlets</span>
             <div className="line"></div>
           </div>
         </Link>
@@ -88,7 +88,7 @@ function DivineHome() {
         </div>
       </div>
 
-      <div className="centerText">
+      <div className="centerText text-center">
         <span>
           DIVINE
           <br />
