@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import NavDumplings from "./NavDumplings";
 import "./contact.css";
 import { Link } from "react-router-dom";
@@ -11,7 +11,13 @@ import clock2 from "../img/clock2.png";
 import phone2 from "../img/phone2.png";
 import mapPin from "../img/map-pin.png";
 
-function Contact() {
+function ContactPage() {
+  useEffect(() => {
+    window.scrollTo({
+      top: 0
+    });
+  }, []);
+
   return (
     <div>
       <NavDumplings />
@@ -312,4 +318,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default ContactPage;

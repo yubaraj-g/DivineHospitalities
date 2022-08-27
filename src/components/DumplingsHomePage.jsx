@@ -5,7 +5,7 @@ import heroimg2 from "../img/heroimg2.png";
 import NavDumplings from "./NavDumplings";
 import LandingTxtBtn1 from "./LandingTxtBtn1";
 import HeroSection2 from "./HeroSection2";
-import Footer from './Footer'
+import Footer from "./Footer";
 // import LandingTxtBtn2 from "./LandingTxtBtn2";
 
 function Dumplings() {
@@ -15,10 +15,13 @@ function Dumplings() {
 
   useEffect(() => {
     setInterval(() => {
-      setSelectedImg((selectedImg) =>
-        selectedImg < 1 ? selectedImg + 1 : 0
-      );
+      setSelectedImg((selectedImg) => (selectedImg < 1 ? selectedImg + 1 : 0));
     }, 4000);
+
+    window.scrollTo({
+      top: 0,
+      // behavior: "smooth"
+    });
   }, []);
 
   return (
@@ -101,7 +104,7 @@ function Dumplings() {
       {/* Gallery Starts */}
 
       {/* Chef List Starts */}
-      
+
       {/* Footer Here and Page Ends */}
       <Footer />
     </>
