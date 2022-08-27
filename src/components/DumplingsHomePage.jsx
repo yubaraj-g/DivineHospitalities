@@ -6,8 +6,9 @@ import NavDumplings from "./NavDumplings";
 import LandingTxtBtn1 from "./LandingTxtBtn1";
 import HeroSection2 from "./HeroSection2";
 import Footer from "./Footer";
-import ChefRecommend from './ChefRecommend'
-import PopularDishes from './PopularDishes'
+import ChefRecommend from './ChefRecommend';
+import PopularDishes from './PopularDishes';
+import GallerySection from "./GallerySection";
 // import LandingTxtBtn2 from "./LandingTxtBtn2";
 
 function Dumplings() {
@@ -105,6 +106,7 @@ function Dumplings() {
       <PopularDishes />
 
       {/* Gallery Starts */}
+      <GallerySection />
 
       {/* Chef List Starts */}
 
