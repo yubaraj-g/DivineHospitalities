@@ -1,0 +1,21 @@
+.backgroundPopular {
+    background: url(../img/popularDishesBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+.popularHeadline {
+    font-weight: 400;
+    font-family: 'Damion';
+    font-size: 48px;
+    background-color: #00000056;
+    height: 50%;
+}
+
+.backgroundPopular span {
+    background-color: #00000056;
+    height: 50%;
+    letter-spacing: 2px;
+    font-family: 'Raleway';
+}

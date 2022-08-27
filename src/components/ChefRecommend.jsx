@@ -10,11 +10,11 @@ function ChefRecommend() {
           Chef Recommended
         </h2>
         <span className="flex justify-center items-center pb-[9rem] font-light text-sm">
-          Signature dishes recommended by our chef
+          SIGNATURE DISHES RECOMMENDED BY OUR CHEF
         </span>
       </div>
 
-      <div className="reccDishes w-full flex flex-col px-24 px-[15rem]">
+      <div className="reccDishes w-full flex flex-col px-[15rem]">
         <div className="divDish1 flex justify-around">
           <div className="w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
             <img src={dish1} alt="" />

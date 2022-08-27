@@ -7,6 +7,7 @@ import LandingTxtBtn1 from "./LandingTxtBtn1";
 import HeroSection2 from "./HeroSection2";
 import Footer from "./Footer";
 import ChefRecommend from './ChefRecommend'
+import PopularDishes from './PopularDishes'
 // import LandingTxtBtn2 from "./LandingTxtBtn2";
 
 function Dumplings() {
@@ -20,8 +21,7 @@ function Dumplings() {
     }, 4000);
 
     window.scrollTo({
-      top: 0,
-      // behavior: "smooth"
+      top: 0
     });
   }, []);
 
@@ -102,6 +102,7 @@ function Dumplings() {
       <ChefRecommend />
 
       {/* Popular Dishes Starts */}
+      <PopularDishes />
 
       {/* Gallery Starts */}
 
