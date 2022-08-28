@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./dumplings.css";
 import heroimg1 from "../img/heroimg1.jpg";
-import heroimg2 from "../img/heroimg2.png";
+import heroimg2 from "../img/heroimg2.jpg";
 import NavDumplings from "./NavDumplings";
 import LandingTxtBtn1 from "./LandingTxtBtn1";
 import HeroSection2 from "./HeroSection2";
