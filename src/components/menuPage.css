@@ -1,0 +1,21 @@
+.backgroundMenu {
+    background: url(../img/popularDishesBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+.menuHeadline {
+    font-weight: 400;
+    font-family: 'Damion';
+    font-size: 48px;
+    background-color: #00000070;
+    height: 50%;
+}
+
+.backgroundMenu span {
+    background-color: #00000070;
+    height: 50%;
+    letter-spacing: 2px;
+    font-family: 'Raleway';
+}

@@ -10,8 +10,8 @@ import clock from "../img/clock.png";
 function Footer() {
   return (
     <div className="footer bg-white w-full flex flex-col text-center">
-      <div className="footer1 bg-[#C1D5A4] w-full h-[100px] flex items-center justify-between px-40">
-        <div className="reservation gap-4">
+      <div className="footer1 bg-[#C1D5A4] w-full h-[100px] flex items-center justify-center px-40">
+        {/* <div className="reservation gap-4">
           <span className="text-white font-bold mr-4 text-md">
             Book A Table
           </span>
@@ -20,7 +20,7 @@ function Footer() {
               Go to Reservation
             </Link>
           </button>
-        </div>
+        </div> */}
         <div className="contact">
           <span className="text-white font-bold mr-4 text-md">
             Contact us for more
@@ -108,7 +108,7 @@ function Footer() {
             Home
           </Link>
           <Link
-            to="/divine-dumplings"
+            to="/menu"
             className="hover:text-green-400 text-xs mb-2 flex justify-center"
           >
             <img src={externalLink} alt="" className="w-[10px] h-[10px] mr-2" />
@@ -128,13 +128,13 @@ function Footer() {
             <img src={externalLink} alt="" className="w-[10px] h-[10px] mr-2" />
             About company
           </Link>
-          <Link
+          {/* <Link
             to="/divine-dumplings"
             className="hover:text-green-400 text-xs mb-2 flex justify-center"
           >
             <img src={externalLink} alt="" className="w-[10px] h-[10px] mr-2" />
             Reservation
-          </Link>
+          </Link> */}
         </div>
 
         <div className="div4 w-60 h-56 bg-black px-3 py-6 flex flex-col">
@@ -145,10 +145,10 @@ function Footer() {
           </span>
           <span className="text-xs mb-2 flex justify-center">9 AM - 11 PM</span>
           <span className="text-xs mb-2 flex justify-center">
-            +91 9999999999
+            <a href="tel:+917575951000">+91 7575951000</a>
           </span>
           <span className="text-xs mb-2 flex justify-center">
-            +91 9999999999
+            <a href="tel:+917575951000">+91 7575951000</a>
           </span>
         </div>
       </div>

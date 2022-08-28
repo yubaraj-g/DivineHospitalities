@@ -277,7 +277,7 @@ const ContactPage = ()=> {
               Home
             </Link>
             <Link
-              to="/divine-dumplings"
+              to="/menu"
               className="hover:text-green-400 text-xs mb-2 flex justify-center"
             >
               <img
@@ -309,7 +309,7 @@ const ContactPage = ()=> {
               />
               About company
             </Link>
-            <Link
+            {/* <Link
               to="/divine-dumplings"
               className="hover:text-green-400 text-xs mb-2 flex justify-center"
             >
@@ -319,7 +319,7 @@ const ContactPage = ()=> {
                 className="w-[10px] h-[10px] mr-2"
               />
               Reservation
-            </Link>
+            </Link> */}
           </div>
 
           <div className="div4 w-60 h-56 bg-black px-3 py-6 flex flex-col">

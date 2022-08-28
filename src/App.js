@@ -7,6 +7,7 @@ import ContactPage from './components/ContactPage'
 // import Home from './components/Home'
 import ComingSoon from "./components/ComingSoon"
 import DivineHome from './components/DivineHome';
+import MenuPage from './components/MenuPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<DivineHome />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/menu" element={<MenuPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/divine-dumplings" element={<DumplingsHomePage />} />
         <Route path="/coming-soon" element={<ComingSoon />} />

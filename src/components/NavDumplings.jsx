@@ -22,7 +22,7 @@ function NavDumplings() {
             </Link>
           </li>
           <li>
-            <Link to="/coming-soon" className="nav-links">
+            <Link to="/menu" className="nav-links">
               Menu
             </Link>
           </li>
