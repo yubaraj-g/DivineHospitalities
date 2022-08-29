@@ -21,14 +21,14 @@ function ChefRecommend() {
             <div className="flex justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-sm py-1">
-                  Mixed Veg with Sliced Bread
+                  Chinese Bhel Tangy Tangra
                 </span>
                 <span className="font-light text-xs">
-                  Beef / Olive Oil / Salt
+                  Chinese / Tangra / Bhel
                 </span>
               </div>
               <div className="dishPrice text-green-600 bg-white font-bold py-3 text-lg">
-                $28
+                ₹89
               </div>
             </div>
           </div>
@@ -37,14 +37,14 @@ function ChefRecommend() {
             <div className="flex justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-sm py-1">
-                  Mixed Veg with Sliced Bread
+                  Chilli Cheese Stuffed Mushroom
                 </span>
                 <span className="font-light text-xs">
-                  Beef / Olive Oil / Salt
+                  Chilli / Cheese / Mushroom
                 </span>
               </div>
               <div className="dishPrice text-green-600 bg-white font-bold py-3 text-lg">
-                $28
+                ₹109
               </div>
             </div>
           </div>
@@ -53,14 +53,14 @@ function ChefRecommend() {
             <div className="flex justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-sm py-1">
-                  Mixed Veg with Sliced Bread
+                  Exotic Veg in Oyster Sauce
                 </span>
                 <span className="font-light text-xs">
-                  Beef / Olive Oil / Salt
+                  Exotic / Oyster / Sauce
                 </span>
               </div>
               <div className="dishPrice text-green-600 bg-white font-bold py-3 text-lg">
-                $28
+                ₹99
               </div>
             </div>
           </div>
@@ -72,14 +72,12 @@ function ChefRecommend() {
             <div className="flex justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-sm py-1">
-                  Mixed Veg with Sliced Bread
+                  Shanghai Veg Spring Roll
                 </span>
-                <span className="font-light text-xs">
-                  Beef / Olive Oil / Salt
-                </span>
+                <span className="font-light text-xs">Chinese / Veg / Roll</span>
               </div>
               <div className="dishPrice text-green-600 bg-white font-bold py-3 text-lg">
-                $28
+                ₹69
               </div>
             </div>
           </div>
@@ -88,14 +86,12 @@ function ChefRecommend() {
             <div className="flex justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-sm py-1">
-                  Mixed Veg with Sliced Bread
+                  Paneer Tikka Roll
                 </span>
-                <span className="font-light text-xs">
-                  Beef / Olive Oil / Salt
-                </span>
+                <span className="font-light text-xs">Paneer / Roll</span>
               </div>
               <div className="dishPrice text-green-600 bg-white font-bold py-3 text-lg">
-                $28
+                ₹89
               </div>
             </div>
           </div>
@@ -104,14 +100,14 @@ function ChefRecommend() {
             <div className="flex justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-sm py-1">
-                  Mixed Veg with Sliced Bread
+                  Veg Tandoori Momo
                 </span>
                 <span className="font-light text-xs">
-                  Beef / Olive Oil / Salt
+                  Veg / Tandoori / Momo
                 </span>
               </div>
               <div className="dishPrice text-green-600 bg-white font-bold py-3 text-lg">
-                $28
+                ₹79
               </div>
             </div>
           </div>

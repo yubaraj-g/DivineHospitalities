@@ -12,7 +12,7 @@ function NavDumplings() {
         
         <Link to="/" className="logoDumpling flex">
           <img src={logo} alt="" className="w-[35px] mr-2 flex items-center my-auto" />
-          <img src={logoText} alt="" className="w-[70px] h-[22px] flex items-center my-auto" />
+          <img src={logoText} alt="" className="flex items-center my-auto" />
         </Link>
 
         <ul className="navUL">
@@ -27,12 +27,12 @@ function NavDumplings() {
             </Link>
           </li>
           <li>
-            <Link to="/coming-soon" className="nav-links">
+            <Link to="/about-resturant" className="nav-links">
               About the Resturant
             </Link>
           </li>
           <li>
-            <Link to="/coming-soon" className="nav-links">
+            <Link to="/about-company" className="nav-links">
               About the Company
             </Link>
           </li>

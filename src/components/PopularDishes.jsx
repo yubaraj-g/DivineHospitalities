@@ -18,79 +18,53 @@ function PopularDishes() {
           <div className="flex justify-between w-full my-4">
             <div className="dishNames bg-white flex flex-col py-2">
               <span className="dName font-medium text-sm py-1">
-                Lemon and Garlic Green Beans
+                Chinese Bhel Tangy Tangra
               </span>
               <span className="dDetail font-light text-xs">
-                Lemon / Garlic / Beans
+                Chinese / Tangra / Bhel
               </span>
             </div>
             <div className="price text-green-600 bg-white font-bold py-3 text-lg">
-              $15
+              ₹89
             </div>
           </div>
           <div className="flex justify-between w-full my-4">
             <div className="dishNames bg-white flex flex-col py-2">
               <span className="dName font-medium text-sm py-1">
-                Lemon and Garlic Green Beans
+                Chilli Cheese Stuffed Mushroom
               </span>
               <span className="dDetail font-light text-xs">
-                Lemon / Garlic / Beans
+                Chilli / Cheese / Mushroom
               </span>
             </div>
             <div className="price text-green-600 bg-white font-bold py-3 text-lg">
-              $15
+              ₹109
             </div>
           </div>
           <div className="flex justify-between w-full my-4">
             <div className="dishNames bg-white flex flex-col py-2">
               <span className="dName font-medium text-sm py-1">
-                Lemon and Garlic Green Beans
+                Exotic Veg in Oyster Sauce
               </span>
               <span className="dDetail font-light text-xs">
-                Lemon / Garlic / Beans
+                Exotic / Oyster / Sauce
               </span>
             </div>
             <div className="price text-green-600 bg-white font-bold py-3 text-lg">
-              $15
+              ₹99
             </div>
           </div>
           <div className="flex justify-between w-full my-4">
             <div className="dishNames bg-white flex flex-col py-2">
               <span className="dName font-medium text-sm py-1">
-                Lemon and Garlic Green Beans
+                Shanghai Veg Spring Roll
               </span>
               <span className="dDetail font-light text-xs">
-                Lemon / Garlic / Beans
+                Chinese / Veg / Roll
               </span>
             </div>
             <div className="price text-green-600 bg-white font-bold py-3 text-lg">
-              $15
-            </div>
-          </div>
-          <div className="flex justify-between w-full my-4">
-            <div className="dishNames bg-white flex flex-col py-2">
-              <span className="dName font-medium text-sm py-1">
-                Lemon and Garlic Green Beans
-              </span>
-              <span className="dDetail font-light text-xs">
-                Lemon / Garlic / Beans
-              </span>
-            </div>
-            <div className="price text-green-600 bg-white font-bold py-3 text-lg">
-              $15
-            </div>
-          </div>
-          <div className="flex justify-between w-full my-4">
-            <div className="dishNames bg-white flex flex-col py-2">
-              <span className="dName font-medium text-sm py-1">
-                Lemon and Garlic Green Beans
-              </span>
-              <span className="dDetail font-light text-xs">
-                Lemon / Garlic / Beans
-              </span>
-            </div>
-            <div className="price text-green-600 bg-white font-bold py-3 text-lg">
-              $15
+              ₹69
             </div>
           </div>
         </div>
@@ -98,79 +72,49 @@ function PopularDishes() {
           <div className="flex justify-between w-full my-4">
             <div className="dishNames bg-white flex flex-col py-2">
               <span className="dName font-medium text-sm py-1">
-                Lemon and Garlic Green Beans
+                Paneer Tikka Roll
               </span>
-              <span className="dDetail font-light text-xs">
-                Lemon / Garlic / Beans
-              </span>
+              <span className="dDetail font-light text-xs">Paneer / Roll</span>
             </div>
             <div className="price text-green-600 bg-white font-bold py-3 text-lg">
-              $15
+              ₹89
             </div>
           </div>
           <div className="flex justify-between w-full my-4">
             <div className="dishNames bg-white flex flex-col py-2">
               <span className="dName font-medium text-sm py-1">
-                Lemon and Garlic Green Beans
+                Veg Tandoori Momo
               </span>
               <span className="dDetail font-light text-xs">
-                Lemon / Garlic / Beans
+                Veg / Tandoori / Momo
               </span>
             </div>
             <div className="price text-green-600 bg-white font-bold py-3 text-lg">
-              $15
+              ₹79
             </div>
           </div>
           <div className="flex justify-between w-full my-4">
             <div className="dishNames bg-white flex flex-col py-2">
               <span className="dName font-medium text-sm py-1">
-                Lemon and Garlic Green Beans
+                Corn Cheese Chilli Momo
               </span>
               <span className="dDetail font-light text-xs">
-                Lemon / Garlic / Beans
+                Corn / Chilli / Momo
               </span>
             </div>
             <div className="price text-green-600 bg-white font-bold py-3 text-lg">
-              $15
+              ₹69
             </div>
           </div>
           <div className="flex justify-between w-full my-4">
             <div className="dishNames bg-white flex flex-col py-2">
               <span className="dName font-medium text-sm py-1">
-                Lemon and Garlic Green Beans
+                Steamed Cheese Momo
               </span>
-              <span className="dDetail font-light text-xs">
-                Lemon / Garlic / Beans
-              </span>
+              <span className="dDetail font-light text-xs">Cheese / Momo</span>
             </div>
             <div className="price text-green-600 bg-white font-bold py-3 text-lg">
-              $15
-            </div>
-          </div>
-          <div className="flex justify-between w-full my-4">
-            <div className="dishNames bg-white flex flex-col py-2">
-              <span className="dName font-medium text-sm py-1">
-                Lemon and Garlic Green Beans
-              </span>
-              <span className="dDetail font-light text-xs">
-                Lemon / Garlic / Beans
-              </span>
-            </div>
-            <div className="price text-green-600 bg-white font-bold py-3 text-lg">
-              $15
-            </div>
-          </div>
-          <div className="flex justify-between w-full my-4">
-            <div className="dishNames bg-white flex flex-col py-2">
-              <span className="dName font-medium text-sm py-1">
-                Lemon and Garlic Green Beans
-              </span>
-              <span className="dDetail font-light text-xs">
-                Lemon / Garlic / Beans
-              </span>
-            </div>
-            <div className="price text-green-600 bg-white font-bold py-3 text-lg">
-              $15
+              ₹49
             </div>
           </div>
         </div>

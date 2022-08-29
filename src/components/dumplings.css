@@ -12,6 +12,11 @@
     margin-top: -70px;
 } */
 
+.heroNav .logoDumpling img:last-child{
+    width: 60px;
+    height: 19px;
+}
+
 .heroSection>img {
     display: flex;
     position: relative;
@@ -124,7 +129,7 @@
 }
 .txtWithBtn .text {
     font-family: 'Raleway', sans-serif;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 14px;
     font-weight: 200;
 }

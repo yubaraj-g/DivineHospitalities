@@ -11,6 +11,7 @@ import clock2 from "../img/clock2.png";
 import phone2 from "../img/phone2.png";
 import mapPin from "../img/map-pin.png";
 import emailjs from '@emailjs/browser';
+import phone1 from  '../img/phone.png'
 
 
 const ContactPage = ()=> {
@@ -244,21 +245,15 @@ const ContactPage = ()=> {
             <div className="social mt-5">
               <span className="font-medium">Social Media</span>
               <div className="social-icons flex mt-2 justify-center gap-4">
-                <Link to="/divine-dumplings">
-                  <div className="w-[40px] h-[40px] bg-[#1D1D1D] hover:bg-blue-500 flex justify-center items-center cursor-pointer">
+                  <a href="https://www.facebook.com/Divine-Dumplings-111609778327734" className="w-[40px] h-[40px] bg-[#1D1D1D] hover:bg-blue-500 flex justify-center items-center cursor-pointer">
                     <img src={fbIcon} alt="" />
-                  </div>
-                </Link>
-                <Link to="/divine-dumplings">
-                  <div className="w-[40px] h-[40px] bg-[#1D1D1D] hover:bg-red-500 flex justify-center items-center cursor-pointer">
+                  </a>
+                  <a href="https://www.instagram.com/divinedumplings_/" className="w-[40px] h-[40px] bg-[#1D1D1D] hover:bg-red-500 flex justify-center items-center cursor-pointer">
                     <img src={instaIcon} alt="" />
-                  </div>
-                </Link>
-                <Link to="/divine-dumplings">
-                  <div className="w-[40px] h-[40px] bg-[#1D1D1D] hover:bg-blue-200 flex justify-center items-center cursor-pointer">
+                  </a>
+                  <a href="/" className="w-[40px] h-[40px] bg-[#1D1D1D] hover:bg-blue-200 flex justify-center items-center cursor-pointer">
                     <img src={twitterIcon} alt="" />
-                  </div>
-                </Link>
+                  </a>
               </div>
             </div>
           </div>
@@ -288,7 +283,7 @@ const ContactPage = ()=> {
               Menu
             </Link>
             <Link
-              to="/divine-dumplings"
+              to="/about-resturant"
               className="hover:text-green-400 text-xs mb-2 flex justify-center"
             >
               <img
@@ -299,7 +294,7 @@ const ContactPage = ()=> {
               About resturant
             </Link>
             <Link
-              to="/divine-dumplings"
+              to="/about-company"
               className="hover:text-green-400 text-xs mb-2 flex justify-center"
             >
               <img
@@ -309,17 +304,6 @@ const ContactPage = ()=> {
               />
               About company
             </Link>
-            {/* <Link
-              to="/divine-dumplings"
-              className="hover:text-green-400 text-xs mb-2 flex justify-center"
-            >
-              <img
-                src={externalLink}
-                alt=""
-                className="w-[10px] h-[10px] mr-2"
-              />
-              Reservation
-            </Link> */}
           </div>
 
           <div className="div4 w-60 h-56 bg-black px-3 py-6 flex flex-col">
@@ -332,9 +316,11 @@ const ContactPage = ()=> {
               9 AM - 11 PM
             </span>
             <a href="tel:+917575951000" className="text-xs mb-2 flex justify-center">
+            <img src={phone1} alt="" className="mr-1 mt-1 w-[15px] mt-1 h-[15px]" />
               +91 7575951000
             </a>
             <a href="tel:+917575951000" className="text-xs mb-2 flex justify-center">
+            <img src={phone1} alt="" className="mr-1 mt-1 w-[15px] mt-1 h-[15px]" />
               +91 7575951000
             </a>
           </div>

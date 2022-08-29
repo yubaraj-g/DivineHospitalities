@@ -202,7 +202,7 @@
     }
     50% {
         /* border-left: 1px solid #ffffffbd; */
-        border-Right: 1px solid #ffffffbd;
+        border-Right: 1px solid #FFD540;
     }
     100% {
         /* border-left: 1px solid #FF00D6; */
@@ -311,10 +311,10 @@
     letter-spacing: 5px;
 }
 
-.social .socialIcons div {
+.social .socialIcons a {
     background: linear-gradient(to bottom right, #FF00D6, #000);
 }
-.social .socialIcons div:hover {
+.social .socialIcons a:hover {
     background: linear-gradient(to bottom right, #FFD540, #000);
     cursor: pointer;
 }

@@ -1,0 +1,34 @@
+.backgroundAbout {
+    background: url(../img/galleryBG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+.aboutHeadline {
+    font-weight: 400;
+    font-family: 'Damion';
+    font-size: 48px;
+    background-color: #00000070;
+    height: 50%;
+}
+
+.backgroundAbout span {
+    background-color: #00000070;
+    height: 50%;
+    letter-spacing: 2px;
+    font-family: 'Raleway';
+}
+
+.aboutPage div:last-child h2 {
+    font-family: 'Damion';
+}
+.aboutPage div:last-child p {
+    font-family: 'Inter';
+}
+
+/* .aboutPage div:last-child .bg1{
+    background: url(../img/bgAbout1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+} */

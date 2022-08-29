@@ -1,7 +1,8 @@
 import './App.css';
 // import Nav from './components/Nav';
 import { Routes, Route } from 'react-router-dom';
-import AboutPage from './components/AboutPage'
+import AboutResturant from './components/AboutResturant'
+import AboutCompany from './components/AboutCompany'
 import DumplingsHomePage from './components/DumplingsHomePage'
 import ContactPage from './components/ContactPage'
 // import Home from './components/Home'
@@ -14,7 +15,9 @@ function App() {
     <div className="App">
       <Routes>
         <Route exact path='/' element={<DivineHome />} />
-        <Route path="/about" element={<AboutPage />} />
+        <Route path="/about" element={<AboutCompany />} />
+        <Route path="/about-resturant" element={<AboutResturant />} />
+        <Route path="/about-company" element={<AboutCompany />} />
         <Route path="/menu" element={<MenuPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/divine-dumplings" element={<DumplingsHomePage />} />

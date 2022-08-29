@@ -6,27 +6,18 @@ import twitterIcon from "../img/twitterIcon.png";
 import externalLink from "../img/external-link.png";
 // import NavDumplings from "./NavDumplings";
 import clock from "../img/clock.png";
+import phone1 from "../img/phone.png";
 
 function Footer() {
   return (
     <div className="footer bg-white w-full flex flex-col text-center">
-      <div className="footer1 bg-[#C1D5A4] w-full h-[100px] flex items-center justify-center px-40">
-        {/* <div className="reservation gap-4">
-          <span className="text-white font-bold mr-4 text-md">
-            Book A Table
-          </span>
-          <button className="btn bg-white text-black px-8 py-3">
-            <Link to="/coming-soon" className="text-sm font-semibold">
-              Go to Reservation
-            </Link>
-          </button>
-        </div> */}
+      <div className="footer1 bg-[#C1D5A4] w-full h-[70px] flex items-center justify-center px-40">
         <div className="contact">
           <span className="text-white font-bold mr-4 text-md">
             Contact us for more
           </span>
           <button className="btn bg-white text-black px-8 py-3">
-            <Link to="/coming-soon" className="text-sm font-semibold">
+            <Link to="/contact" className="text-sm font-semibold">
               Go to Contact Page
             </Link>
           </button>
@@ -79,21 +70,24 @@ function Footer() {
           <div className="social mt-5">
             <span className="font-medium">Social Media</span>
             <div className="social-icons flex mt-2 justify-center gap-4">
-              <Link to="/divine-dumplings">
-                <div className="w-[40px] h-[40px] bg-[#1D1D1D] hover:bg-blue-500 flex justify-center items-center cursor-pointer">
-                  <img src={fbIcon} alt="" />
-                </div>
-              </Link>
-              <Link to="/divine-dumplings">
-                <div className="w-[40px] h-[40px] bg-[#1D1D1D] hover:bg-red-500 flex justify-center items-center cursor-pointer">
-                  <img src={instaIcon} alt="" />
-                </div>
-              </Link>
-              <Link to="/divine-dumplings">
-                <div className="w-[40px] h-[40px] bg-[#1D1D1D] hover:bg-blue-200 flex justify-center items-center cursor-pointer">
-                  <img src={twitterIcon} alt="" />
-                </div>
-              </Link>
+              <a
+                href="https://www.facebook.com/Divine-Dumplings-111609778327734"
+                className="w-[40px] h-[40px] bg-[#1D1D1D] hover:bg-blue-500 flex justify-center items-center cursor-pointer"
+              >
+                <img src={fbIcon} alt="" />
+              </a>
+              <a
+                href="https://www.instagram.com/divinedumplings_/"
+                className="w-[40px] h-[40px] bg-[#1D1D1D] hover:bg-red-500 flex justify-center items-center cursor-pointer"
+              >
+                <img src={instaIcon} alt="" />
+              </a>
+              <a
+                href="/"
+                className="w-[40px] h-[40px] bg-[#1D1D1D] hover:bg-blue-200 flex justify-center items-center cursor-pointer"
+              >
+                <img src={twitterIcon} alt="" />
+              </a>
             </div>
           </div>
         </div>
@@ -115,26 +109,19 @@ function Footer() {
             Menu
           </Link>
           <Link
-            to="/divine-dumplings"
+            to="/about-resturant"
             className="hover:text-green-400 text-xs mb-2 flex justify-center"
           >
             <img src={externalLink} alt="" className="w-[10px] h-[10px] mr-2" />
             About resturant
           </Link>
           <Link
-            to="/divine-dumplings"
+            to="/about-company"
             className="hover:text-green-400 text-xs mb-2 flex justify-center"
           >
             <img src={externalLink} alt="" className="w-[10px] h-[10px] mr-2" />
             About company
           </Link>
-          {/* <Link
-            to="/divine-dumplings"
-            className="hover:text-green-400 text-xs mb-2 flex justify-center"
-          >
-            <img src={externalLink} alt="" className="w-[10px] h-[10px] mr-2" />
-            Reservation
-          </Link> */}
         </div>
 
         <div className="div4 w-60 h-56 bg-black px-3 py-6 flex flex-col">
@@ -145,10 +132,30 @@ function Footer() {
           </span>
           <span className="text-xs mb-2 flex justify-center">9 AM - 11 PM</span>
           <span className="text-xs mb-2 flex justify-center">
-            <a href="tel:+917575951000">+91 7575951000</a>
+            <a
+              href="tel:+917575951000"
+              className="flex w-[80%] self-center text-sm justify-center"
+            >
+              <img
+                src={phone1}
+                alt=""
+                className="mr-1 mt-1 w-[15px] mt-1 h-[15px]"
+              />
+              +91 7575951000
+            </a>
           </span>
           <span className="text-xs mb-2 flex justify-center">
-            <a href="tel:+917575951000">+91 7575951000</a>
+            <a
+              href="tel:+917575951000"
+              className="flex w-[80%] self-center text-sm justify-center"
+            >
+              <img
+                src={phone1}
+                alt=""
+                className="mr-1 mt-1 w-[15px] mt-1 h-[15px]"
+              />
+              +91 7575951000
+            </a>
           </span>
         </div>
       </div>
