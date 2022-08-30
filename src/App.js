@@ -1,4 +1,5 @@
 import './App.css';
+import './components/responsive.css'
 // import Nav from './components/Nav';
 import { Routes, Route } from 'react-router-dom';
 import AboutResturant from './components/AboutResturant'

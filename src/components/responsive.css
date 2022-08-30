@@ -1,0 +1,72 @@
+/* Responsive Landing Page DivineHome.jsx  */
+
+@media (max-width: 420px) {
+    .homeCanvas .circle {
+        width: 35%;
+        height: 40%;
+        top: 20%;
+        left: 20%;
+    }
+
+    .verticalNav {
+        height: 280px;
+        padding-left: 15px;
+        margin-top: -17%;
+    }
+
+    .verticalNav ul {
+        padding: 1rem 0;
+        gap: 1rem;
+    }
+
+    .verticalNav ul li a {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .centerText {
+        left: 18%;
+    }
+
+    .centerText span {
+        position: absolute;
+        text-align: start;
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
+    .centerText .smallLine {
+        display: flex;
+        position: absolute;
+        width: 80%;
+        left: 45%;
+        top: -50%;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 10px;
+    }
+
+    .social .text {
+        display: none;
+    }
+
+    .social .text2 {
+        display: flex;
+        color: rgba(255, 255, 255, 0.7);
+        letter-spacing: 5px;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: uppercase;
+    }
+
+    .social .socialIcons {
+        display: flex;
+        flex-direction: column;
+    }
+ 
+}
+
