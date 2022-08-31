@@ -173,19 +173,19 @@ const ContactPage = ()=> {
                 </h3>
                 <div className="flex self-center justify-evenly w-[50%] mb-4">
                   <a
-                    href="https://www.facebook.com"
+                    href="https://www.facebook.com/Divine-Dumplings-111609778327734"
                     className="w-[30px] h-[30px] bg-[#1d1d1d] hover:bg-blue-700 flex justify-center items-center cursor-pointer"
                   >
                     <img src={fbIcon} alt="" />
                   </a>
                   <a
-                    href="https://www.facebook.com"
+                    href="https://www.instagram.com/divinedumplings_/"
                     className="w-[30px] h-[30px] bg-[#1d1d1d] hover:bg-red-500 flex justify-center items-center cursor-pointer"
                   >
                     <img src={instaIcon} alt="" />
                   </a>
                   <a
-                    href="https://www.facebook.com"
+                    href="/"
                     className="w-[30px] h-[30px] bg-[#1d1d1d] hover:bg-blue-300 flex justify-center items-center cursor-pointer"
                   >
                     <img src={twitterIcon} alt="" />
