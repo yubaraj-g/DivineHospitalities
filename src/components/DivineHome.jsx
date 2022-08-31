@@ -1,6 +1,5 @@
 import React from "react";
 import "./divineHome.css";
-import './responsive.css';
 import { Link } from "react-router-dom";
 import divinelogo from "../img/divinelogo40x40.png";
 import logoText from "../img/LogoText.png";
@@ -34,19 +33,47 @@ function DivineHome() {
           </div>
         </Link>
 
-        <div className="slideInDiv">
+        <div className="slideInDiv flex-col">
+
+          <span className="flex lg:hidden justify-center text-white mb-4 -mt-24 text-sm">Check Our Subsidieries</span>
+          
           <Link to="/divine-dumplings">
             <span className="hrefToDumplings">
               www.divinehospitalities.com/divine-dumplings
             </span>
           </Link>
+
+          <div className="lg:hidden social flex items-center justify-center lg:justify-start absolute bottom-0">
+            <span className="text mr-2 text-blue-200">Follow Us -</span>
+            <div className="socialIcons flex lg:hidden gap-4">
+              <a
+                href="https://www.facebook.com/Divine-Dumplings-111609778327734"
+                className="h-[25px] w-[25px] flex justify-center items-center"
+              >
+                <img src={fbIcon} alt="" className="w-[6px] h-[12px]" />
+              </a>
+              <a
+                href="https://www.instagram.com/divinedumplings_/"
+                className="h-[25px] w-[25px] flex justify-center items-center"
+              >
+                <img src={instaIcon} alt="" className="w-[10.5px] h-[10.5px]" />
+              </a>
+              <a
+                href="/"
+                className="h-[25px] w-[25px] flex justify-center items-center"
+              >
+                <img src={twitterIcon} alt="" className="w-[11px] h-[10px]" />
+              </a>
+            </div>
+          </div>
         </div>
-        <div className="slideInDiv2">
+        <div className="slideInDiv2 flex flex-col">
           <Link to="/divine-dumplings">
             <span className="hrefToDumplings">
               www.divinehospitalities.com/divine-dumplings
             </span>
           </Link>
+          
         </div>
       </div>
 
@@ -84,22 +111,33 @@ function DivineHome() {
 
         <div className="social flex items-center justify-start absolute bottom-6">
           <span className="text mr-2">Follow Us -</span>
-          <span className="text2 mr-2">F<br />o<br />l<br />l<br />o<br />w<br /> <br />U<br />s</span>
+          <span className="text2 lg:hidden mr-2">
+            F<br />o<br />l<br />l<br />o<br />w<br /> <br />U<br />s
+          </span>
           <div className="socialIcons flex gap-4">
-            <a href="https://www.facebook.com/Divine-Dumplings-111609778327734" className="h-[25px] w-[25px] flex justify-center items-center">
+            <a
+              href="https://www.facebook.com/Divine-Dumplings-111609778327734"
+              className="h-[25px] w-[25px] flex justify-center items-center"
+            >
               <img src={fbIcon} alt="" className="w-[6px] h-[12px]" />
             </a>
-            <a href="https://www.instagram.com/divinedumplings_/" className="h-[25px] w-[25px] flex justify-center items-center">
+            <a
+              href="https://www.instagram.com/divinedumplings_/"
+              className="h-[25px] w-[25px] flex justify-center items-center"
+            >
               <img src={instaIcon} alt="" className="w-[10.5px] h-[10.5px]" />
             </a>
-            <a href="/" className="h-[25px] w-[25px] flex justify-center items-center">
+            <a
+              href="/"
+              className="h-[25px] w-[25px] flex justify-center items-center"
+            >
               <img src={twitterIcon} alt="" className="w-[11px] h-[10px]" />
             </a>
           </div>
         </div>
       </div>
 
-      <div className="centerText text-center">
+      <div className="centerText text-start lg:text-center">
         <span>
           DIVINE
           <br />
