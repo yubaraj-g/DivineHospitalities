@@ -13,8 +13,8 @@ function PopularDishes() {
         </span>
       </div>
 
-      <div className="popularMenu flex w-full px-[15rem] py-8 justify-between gap-12">
-        <div className="menu flex flex-col w-[50%]">
+      <div className="popularMenu flex flex-col lg:flex-row w-full px-12 lg:px-[15rem] py-8 justify-between gap-0 lg:gap-12">
+        <div className="menu flex flex-col w-full lg:w-[50%]">
           <div className="flex justify-between w-full my-4">
             <div className="dishNames bg-white flex flex-col py-2">
               <span className="dName font-medium text-sm py-1">
@@ -68,7 +68,7 @@ function PopularDishes() {
             </div>
           </div>
         </div>
-        <div className="menu flex flex-col w-[50%]">
+        <div className="menu flex flex-col w-full lg:w-[50%]">
           <div className="flex justify-between w-full my-4">
             <div className="dishNames bg-white flex flex-col py-2">
               <span className="dName font-medium text-sm py-1">

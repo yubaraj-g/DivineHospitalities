@@ -11,12 +11,12 @@ import phone1 from "../img/phone.png";
 function Footer() {
   return (
     <div className="footer bg-white w-full flex flex-col text-center">
-      <div className="footer1 bg-[#C1D5A4] w-full h-[70px] flex items-center justify-center px-40">
-        <div className="contact">
-          <span className="text-white font-bold mr-4 text-md">
-            Contact us for more
+      <div className="footer1 bg-[#C1D5A4] w-full h-50px lg:h-[70px] flex items-center justify-center py-3 px-12 lg:px-40">
+        <div className="contact w-full flex items-center justify-center">
+          <span className="text-white font-bold mr-1 lg:mr-4 text-sm lg:text-md">
+            Contact us or mail us for more
           </span>
-          <button className="btn bg-white text-black px-8 py-3">
+          <button className="btn bg-white text-black px-5 py-2 lg:px-8 lg:py-3">
             <Link to="/contact" className="text-sm font-semibold">
               Go to Contact Page
             </Link>
@@ -24,7 +24,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="footer2 bg-black w-full h-[300px] flex justify-center gap-10 items-center text-white">
+      <div className="footer2 bg-black w-full h-fit pt-12 lg:py-8 grid lg:flex justify-center gap-4 lg:gap-10 items-center text-white">
         <div className="w-60 h-56 bg-[#C1D5A4]">
           <iframe
             title="divinedumplinglocation"
@@ -62,7 +62,7 @@ function Footer() {
                   stroke-linejoin="round"
                 />
               </svg>
-              78781008athgaon, near kc das commerce college, Chatribari,
+              Athgaon, near kc das commerce college, Chatribari,
               Guwahati, Assam 781008
             </p>
           </div>
@@ -160,7 +160,7 @@ function Footer() {
         </div>
       </div>
 
-      <div className="footer3 bg-[#292424] w-full h-[40px] text-white flex justify-center items-center text-xs">
+      <div className="footer3 bg-[#292424] w-full h-[40px] text-white flex justify-center items-center text-[9px]">
         <span>
           © Copyright by{" "}
           <span className="text-[#C1D5A4]">Divine Hospitalities.</span> All

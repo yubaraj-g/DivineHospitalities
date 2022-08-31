@@ -276,6 +276,7 @@
     flex-direction: column;
     height: 100%;
     padding: 3rem 0;
+    gap: 1.5rem;
 }
 .verticalNav > ul > li > a {
     color: rgba(0, 0, 0, 0);

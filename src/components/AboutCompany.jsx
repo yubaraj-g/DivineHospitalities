@@ -25,8 +25,8 @@ function AboutCompany() {
           </span>
         </div>
 
-        <div className="w-full h-[30rem] bg-white flex px-[15rem] py-8 justify-between gap-12 items-center">
-          <div className="flex flex-col h-[90%] w-[60%] bg-white text-center">
+        <div className="w-full h-fit lg:h-[30rem] bg-white flex flex-col lg:flex-row px-12 lg:px-[15rem] py-8 justify-between gap-12 items-center">
+          <div className="flex flex-col h-[90%] w-full lg:w-[60%] bg-white text-center">
             <h2 className="text-3xl mb-8">About us : Company</h2>
             <p className="text-start text-sm font-light">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -40,7 +40,7 @@ function AboutCompany() {
               et dolore magnam aliquam quaerat voluptatem.
             </p>
           </div>
-          <div className="flex h-[90%] w-[38%] bg-gray-100">
+          <div className="flex h-[90%] w-[80%] lg:w-[38%] bg-gray-100">
             <img load="lazy" src={aboutbg2} alt="" />
           </div>
         </div>

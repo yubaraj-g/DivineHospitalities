@@ -18,6 +18,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
 @media (min-width: 768px) {
   body {
     margin: 0;
@@ -25,6 +26,7 @@ body {
     width: 100vw;
   }
 }
+
 @media (max-width: 500px) {
   body {
     margin: 0;
@@ -46,37 +48,44 @@ h1 {
   margin: auto;
   color: #C1D5A4;
 }
+
 .hero {
   margin-top: 0;
   padding-top: 8rem;
 }
+
 .homeh1 {
   font-family: 'Raleway';
   font-size: 26px;
   font-weight: 900;
   color: #C1D5A4;
 }
+
 .welcomeText {
   margin-top: 1rem;
   display: flex;
   width: 100%;
   justify-content: center;
 }
+
 .supportLineDiv {
   padding-top: 1rem;
   padding-bottom: 1rem;
   width: 800px;
   border-top: 1px solid #C1D5A4;
 }
+
 .supportLineDiv span {
   font-family: 'Corinthia', cursive;
   font-weight: 400;
   font-size: 64px;
   color: #C1D5A4;
 }
+
 .text3rd {
   margin-top: 4rem;
 }
+
 .text3rd span {
   font-family: 'Raleway';
   font-size: 16px;
@@ -103,29 +112,33 @@ nav {
   cursor: pointer;
 } */
 
-ul {
-  display: flex;
+nav .nav-ul {
   margin: 0;
   gap: 3rem;
   justify-content: space-between;
 }
-
-li {
-  display: flex;
-  justify-items: center;
-  color: white;
-  font-family: 'Raleway', cursive;
-  font-size: 12px;
+.nav-ul li {
+  font-family: 'Raleway';
   font-weight: 700;
 }
 
-.nav-links {
-  display: flex;
-  margin: auto 0;
-  color: white;
-  text-decoration: none;
-  padding: 7px 0 7px 0;
+
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex;
+    margin: auto 0;
+    color: white;
+    text-decoration: none;
+    padding: 7px 0 7px 0;
+  }
 }
+
+@media (max-width: 500px) {
+  /* .nav-links {
+
+  } */
+}
+
 .nav-links:hover {
   border-bottom: 1px solid #717744;
   padding-bottom: 6px;
@@ -147,6 +160,7 @@ li {
   margin-top: 1rem;
   justify-content: space-between;
 }
+
 .card:hover {
   display: flex;
   flex-direction: column;
@@ -158,6 +172,7 @@ li {
   backdrop-filter: blur(20px);
   box-shadow: 4px 4px 0 #C1D5A4;
 }
+
 .child1 {
   display: flex;
   justify-content: center;
@@ -169,6 +184,7 @@ li {
   font-weight: 600;
   letter-spacing: 10%;
 }
+
 .child2 {
   display: flex;
   justify-content: center;
@@ -179,11 +195,12 @@ li {
   font-weight: 700;
   letter-spacing: 10%;
 }
-.child1 span{
+
+.child1 span {
   display: flex;
 }
 
-.card{
+.card {
   margin: 14px 6px 6px 14px;
   width: 300px;
   height: 160px;
@@ -196,7 +213,8 @@ li {
 .cardDisabled {
   box-shadow: none;
 }
-.cardDisabled:hover{
+
+.cardDisabled:hover {
   margin: 10px;
   background-color: #71774425;
   color: #242424;
@@ -206,6 +224,7 @@ li {
 .bg-white {
   background-color: white;
 }
+
 .bg-black {
   background-color: black;
 }

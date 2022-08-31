@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Footer from "./Footer";
 import "./menuPage.css";
 import NavDumplings from "./NavDumplings";
-import menupdf from '../other/RESTURANT MENU_A4_DIVINE_4_1-min.pdf'
+import menupdf from '../other/MENU_A4_DIVINE1.pdf'
 
 function MenuPage() {
   useEffect(() => {
@@ -25,8 +25,8 @@ function MenuPage() {
           </span>
         </div>
 
-        <div className="popularMenu flex w-full px-[15rem] py-8 justify-between gap-12">
-          <div className="menu flex flex-col w-[50%]">
+        <div className="popularMenu flex flex-col lg:flex-row w-full px-12 lg:px-[15rem] py-8 justify-between gap-12">
+          <div className="menu flex flex-col w-full lg:w-[50%]">
             <div className="flex justify-between w-full my-4">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="dName font-medium text-sm py-1">
@@ -182,7 +182,7 @@ function MenuPage() {
               </div>
             </div>
           </div>
-          <div className="menu flex flex-col w-[50%]">
+          <div className="menu flex flex-col w-full lg:w-[50%]">
             <div className="flex justify-between w-full my-4">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="dName font-medium text-sm py-1">Veg Roll</span>

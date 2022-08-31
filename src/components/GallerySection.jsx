@@ -14,13 +14,13 @@ function GallerySection() {
           HAVE A GLANCE AT US
         </span>
       </div>
-      <div className="theGallery flex w-full px-[15rem] py-8 justify-between gap-12">
-        <div className="photo flex flex-col w-[50%] justify-center items-center">
+      <div className="theGallery flex flex-col lg:flex-row w-full px-12 lg:px-[15rem] py-8 justify-between gap-0 lg:gap-12">
+        <div className="photo flex flex-col w-full lg:w-[50%] justify-center items-center">
           <div className="flex self-center w-full h-full p-4">
             <img src={koreanNoodles} alt="" />
           </div>
         </div>
-        <div className="photoGrid grid-container w-[50%] p-4">
+        <div className="photoGrid grid-container w-full lg:w-[50%] p-4">
           <div className="grid-item w-full h-full bg-gray-200">
             <img src={chickenSauced} alt="" />
           </div>

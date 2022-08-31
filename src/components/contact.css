@@ -1,8 +1,26 @@
 .contactPage {
     background-image: url(../img/contact-bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0% 50%;
+
+}
+
+@media (max-width: 500px) {
+    .contactPage {
+        background-size: fill;
+        background-position: 20% 0%;
+    }
+    .leftContact h2 {
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contactPage {
+        background-size: cover;
+        background-position: 0% 50%;
+    }
 }
 
 .contactHeading {
@@ -11,18 +29,22 @@
     font-weight: 500;
 }
 
-.contactBody {
-    padding: 6rem 10rem 6rem 10rem;
-    font-family: 'Raleway';
+@media (min-width: 768px) {
+    .contactBody {
+        padding: 6rem 10rem 6rem 10rem;
+        font-family: 'Raleway';
+    }
+
+    .leftContact h2 {
+        font-family: 'Inter';
+        font-weight: 600;
+        font-size: 22px;
+    }
 }
 
-.leftContact h2 {
-    font-family: 'Inter';
-    font-weight: 600;
-    font-size: 22px;
-}
 
-.leftContact p{
+
+.leftContact p {
     letter-spacing: 1px;
     font-weight: 400;
     line-height: 20px;
@@ -31,6 +53,7 @@
 .aboutPage div:last-child div:last-child {
     overflow: hidden;
 }
+
 .aboutPage div:last-child div:last-child img {
     width: 100%;
     height: fit-content;

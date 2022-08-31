@@ -34,7 +34,7 @@ function Dumplings() {
 
       {/* Hero Section Here For Divine Dumplings */}
       <div
-        className="heroSection w-full h-96"
+        className="heroSection w-full h-[500px] lg:h-full"
         style={{ position: "relative", zIndex: "555" }}
       >
         <LandingTxtBtn1 />
@@ -42,7 +42,7 @@ function Dumplings() {
         <img
           src={allImages[selectedImg]}
           alt="heroImages"
-          className="carousel object-cover"
+          className="carousel object-cover lg:w-full"
         />
 
         <button

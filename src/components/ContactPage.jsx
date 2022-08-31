@@ -51,13 +51,13 @@ const ContactPage = ()=> {
     <div>
       <NavDumplings />
 
-      <div className="contactPage h-[1600px] w-full flex flex-col z-30">
+      <div className="contactPage h-[2400px] lg:h-[1600px] w-full flex flex-col z-30">
         <span className="contactHeading w-full text-white my-40 text-center">
           Contact Us
         </span>
 
-        <div className="contactBody w-full h-[70%] bg-white z-10 flex justify-between">
-          <div className="leftContact w-[60%] h-[70%]">
+        <div className="contactBody flex flex-col lg:flex-row w-full h-[70%] bg-white z-10 flex justify-between px-12 py-9">
+          <div className="leftContact w-full lg:w-[60%] h-[70%]">
             <h2>We'd Love to Hear From You, Please Let Us Know</h2>
             <div className="my-8 w-[15%] h-[1px] bg-black"></div>
             <p className="text-sm mb-8">
@@ -68,8 +68,8 @@ const ContactPage = ()=> {
               felis.
             </p>
 
-            <form ref={form} onSubmit={sendEmail} action="" className="w-full">
-              <div className="flex flex-col w-full w-[90%] mb-6 md:mb-0">
+            <form ref={form} onSubmit={sendEmail} action="" className="w-full px-0 flex flex-col justify-center">
+              <div className="flex flex-col w-full lg:w-[90%] mb-6 md:mb-0 px-0">
                 <label
                   htmlFor="grid-first-name"
                   className="block uppercase text-gray-900 font-bold mb-2"
@@ -87,7 +87,7 @@ const ContactPage = ()=> {
                 </p>
               </div>
 
-              <div className="flex flex-col w-full w-[90%] my-6 md:mb-0">
+              <div className="flex flex-col w-full lg:w-[90%] my-6 md:mb-0 px-0">
                 <label
                   htmlFor="grid-first-name"
                   className="block uppercase text-gray-900 font-bold mb-2"
@@ -105,7 +105,7 @@ const ContactPage = ()=> {
                 </p>
               </div>
 
-              <div className="flex flex-col w-full w-[90%] my-6 md:mb-0">
+              <div className="flex flex-col w-full lg:w-[90%] my-6 md:mb-0 px-0">
                 <label
                   htmlFor="grid-first-name"
                   className="block uppercase text-gray-900 font-bold mb-2"
@@ -121,7 +121,7 @@ const ContactPage = ()=> {
               </div>
 
               <button
-                className="shadow bg-black hover:bg-gray-800 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 bottom-0 uppercase mt-8 cursor-pointer"
+                className="shadow bg-black hover:bg-gray-800 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 bottom-0 uppercase mt-8 cursor-pointer w-full lg:w-[90%]"
                 type="button"
               >
                 <input type="submit" value="SEND" className="cursor-pointer" />
@@ -129,13 +129,13 @@ const ContactPage = ()=> {
             </form>
           </div>
 
-          <div className="rightContact w-[35%] h-[60%] border border-1 border-black flex justify-center items-center">
+          <div className="rightContact w-full lg:w-[35%] h-2/5 lg:h-[80%] border border-1 border-black flex justify-center items-center">
             <div className="w-[96%] h-[98%] border border-1 border-black flex flex-col">
               <div className="flex flex-col justify-center">
                 <h3 className="text-center w-full my-6 font-bold">ADDRESS</h3>
                 <p className="text-sm font-regular tracking-wide flex mb-4 w-[80%] flex self-center">
                   <img src={mapPin} alt="" className="h-5 mt-1 mr-1" />
-                  78781008athgaon, near kc das commerce college, Chatribari,
+                  Athgaon, near kc das commerce college, Chatribari,
                   Guwahati, Assam 781008
                 </p>
                 <div className="w-[80%] h-[1px] bg-black flex self-center"></div>
@@ -197,13 +197,13 @@ const ContactPage = ()=> {
           </div>
         </div>
 
-        <div className="map w-full h-[300px] bg-pink-200 flex absolute top-[1300px] z-20">
+        <div className="map w-full h-96 lg:h-[500px] bg-pink-200 flex z-20">
           <iframe
             title="divinedumplinglocation"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.730299739287!2d91.7398338143993!3d26.172911597846657!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5bb4509a1e81%3A0xaf3449cc540f8777!2sDivine%20Dumplings!5e0!3m2!1sen!2sin!4v1661289958681!5m2!1sen!2sin"
             width="100%"
             height="100%"
-            style={{ border: 0 }}
+            style={{ border: 0, margin: 0 }}
             allowFullScreen=""
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
@@ -212,7 +212,7 @@ const ContactPage = ()=> {
       </div>
 
       <div className="footer bg-white w-full flex flex-col text-center z-40 bottom-0">
-        <div className="footer2 bg-black w-full h-[300px] flex justify-center gap-10 items-center text-white">
+        <div className="footer2 bg-black w-full h-fit pt-12 lg:py-8 grid lg:flex justify-center lg:gap-10 gap-4 items-center text-white">
           <div className="w-60 h-56 bg-black px-3 py-6">
             <div className="address">
               <span className="font-medium">Address</span>
@@ -237,7 +237,7 @@ const ContactPage = ()=> {
                     strokeLinejoin="round"
                   />
                 </svg>
-                78781008athgaon, near kc das commerce college, Chatribari,
+                Athgaon, near kc das commerce college, Chatribari,
                 Guwahati, Assam 781008
               </p>
             </div>
@@ -326,7 +326,7 @@ const ContactPage = ()=> {
           </div>
         </div>
 
-        <div className="footer3 bg-[#292424] w-full h-[40px] text-white flex justify-center items-center text-xs">
+        <div className="footer3 bg-[#292424] w-full h-[40px] text-white flex justify-center items-center text-[9px]">
           <span>
             © Copyright by{" "}
             <span className="text-[#C1D5A4]">Divine Hospitalities.</span> All

@@ -13,10 +13,10 @@ function ChefsSection() {
           WHO IS COOKING YOUR FOOD
         </span>
       </div>
-      <div className="theChefs flex w-full px-[15rem] py-16 justify-between gap-12">
-        <div className="w-[30%] h-96 bg-gray-200 flex flex-col">
-          <img load="lazy" src={chefReccBg} alt="" className="w-full h-3/5 bg-black z-40" />
-          <div className="flex flex-col h-2/5 px-8 py-4 z-50">
+      <div className="theChefs flex flex-col lg:flex-row w-full px-15 lg:px-[15rem] py-16 justify-center lg:justify-between gap-12">
+        <div className="w-[80%] lg:w-[30%] h-[35rem] lg:h-96 bg-gray-200 flex flex-col self-center">
+          <img load="lazy" src={chefReccBg} alt="" className="w-full h-4/6 lg:h-3/5 bg-black z-40" />
+          <div className="flex flex-col h-2/6 lg:h-2/5 px-8 py-10 lg:py-4 z-50">
             <h4 className="font-semibold">Mark Anthony</h4>
             <span className="font-thin text-xs">Head Chef</span>
             <p className="mt-3 text-xs">
@@ -25,9 +25,9 @@ function ChefsSection() {
             </p>
           </div>
         </div>
-        <div className="w-[30%] h-96 bg-gray-200 flex flex-col">
-          <img load="lazy" src={chefReccBg} alt="" className="w-full h-3/5 bg-black z-40" />
-          <div className="flex flex-col h-2/5 px-8 py-4 z-50">
+        <div className="w-[80%] lg:w-[30%] h-[35rem] lg:h-96 bg-gray-200 flex flex-col self-center">
+          <img load="lazy" src={chefReccBg} alt="" className="w-full h-4/6 lg:h-3/5 bg-black z-40" />
+          <div className="flex flex-col h-2/6 lg:h-2/5 px-8 py-10 lg:py-4 z-50">
             <h4 className="font-semibold">Mark Anthony</h4>
             <span className="font-thin text-xs">Head Chef</span>
             <p className="mt-3 text-xs">
@@ -36,9 +36,9 @@ function ChefsSection() {
             </p>
           </div>
         </div>
-        <div className="w-[30%] h-96 bg-gray-200 flex flex-col">
-          <img src={chefReccBg} alt="" className="w-full h-3/5 bg-black z-40" />
-          <div className="flex flex-col h-2/5 px-8 py-4 z-50">
+        <div className="w-[80%] lg:w-[30%] h-[35rem] lg:h-96 bg-gray-200 flex flex-col self-center">
+          <img src={chefReccBg} alt="" className="w-full h-3/5 bg-bla h-4/6clg:k z-40" />
+          <div className="flex flex-col h-2/6 lg:h-2/5 px-8 py-10 lg:py-4 z-50">
             <h4 className="font-semibold">Mark Anthony</h4>
             <span className="font-thin text-xs">Head Chef</span>
             <p className="mt-3 text-xs">
