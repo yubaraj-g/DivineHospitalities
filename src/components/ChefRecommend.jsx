@@ -17,7 +17,7 @@ function ChefRecommend() {
       <div className="reccDishes w-full flex flex-col px-[15rem]">
         <div className="divDish1 flex justify-around">
           <div className="w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img src={dish1} alt="" />
+            <img load="lazy" src={dish1} alt="" />
             <div className="flex justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-sm py-1">
@@ -33,7 +33,7 @@ function ChefRecommend() {
             </div>
           </div>
           <div className="w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img src={dish1} alt="" />
+            <img load="lazy" src={dish1} alt="" />
             <div className="flex justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-sm py-1">
@@ -49,7 +49,7 @@ function ChefRecommend() {
             </div>
           </div>
           <div className="w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img src={dish1} alt="" />
+            <img load="lazy" src={dish1} alt="" />
             <div className="flex justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-sm py-1">
@@ -68,7 +68,7 @@ function ChefRecommend() {
 
         <div className="divDish2 flex justify-around">
           <div className="w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img src={dish1} alt="" />
+            <img load="lazy" src={dish1} alt="" />
             <div className="flex justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-sm py-1">
@@ -82,7 +82,7 @@ function ChefRecommend() {
             </div>
           </div>
           <div className="w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img src={dish1} alt="" />
+            <img load="lazy" src={dish1} alt="" />
             <div className="flex justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-sm py-1">
@@ -96,7 +96,7 @@ function ChefRecommend() {
             </div>
           </div>
           <div className="w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img src={dish1} alt="" />
+            <img load="lazy" src={dish1} alt="" />
             <div className="flex justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-sm py-1">

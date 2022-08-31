@@ -12,19 +12,26 @@
     margin-top: -70px;
 } */
 
-.heroNav .logoDumpling img:last-child{
+.heroNav .logoDumpling img:last-child {
     width: 60px;
     height: 19px;
 }
 
-.heroSection>img {
-    display: flex;
-    position: relative;
-    width: 100%;
-    height: 100%;
+@media (min-width: 768px) {
+    .heroSection>img {
+        display: flex;
+        position: relative;
+        height: 100%;
+    }
+}
+@media (min-width: 50px) and (max-width: 500px) {
+    .heroSection {
+        display: flex;
+        object-fit: cover;
+    }
 }
 
-.heroSection>img {
+.heroSection > img {
     animation-name: slideinfromright;
     animation-duration: 1s;
     animation-timing-function: linear;
@@ -77,6 +84,7 @@
     backdrop-filter: blur(30px);
     background-color: #0000003d;
 }
+
 /* 
 .heroNav .logoDumpling {
     display: flex;
@@ -127,16 +135,17 @@
     gap: 2rem;
     text-align: center;
 }
+
 .txtWithBtn .text {
     font-family: 'Raleway', sans-serif;
     letter-spacing: 1px;
-    font-size: 14px;
+    /* font-size: 14px; */
     font-weight: 200;
 }
 
 .headline {
     font-family: 'Damion', cursive;
-    font-size: 70px;
+    /* font-size: 70px; */
     color: white;
     animation-duration: 2s;
     animation-name: slideinfromtop;
@@ -223,6 +232,11 @@
     padding: 8rem 5rem 5rem 5rem;
     gap: 5rem;
 }
+@media (max-width: 500px) {
+    .hero2 {
+        padding: 3rem 2rem 2rem 2rem;
+    }
+}
 
 .hero .leftImg {
     width: 400px;
@@ -240,7 +254,7 @@
     margin: 0;
     font-family: 'Raleway', sans-serif;
     line-height: 2rem;
-    font-size: 20px;
+    /*  */
     font-weight: bold;
     color: black;
     text-align: start;
@@ -285,4 +299,41 @@
 
 .social-icons>div {
     transition-duration: 0.3s;
+}
+
+@media (min-width: 50px) and (max-width: 500px) {
+    .heroNav {
+        display: none;
+    }
+
+    .heroNavMobile {
+        display: flex;
+        position: relative;
+        height: 50px;
+        align-items: center;
+        margin-bottom: -50px;
+        backdrop-filter: blur(30px);
+        background-color: #00000000;
+    }
+
+    .heroNavMobile div {
+        padding-left: 1rem;
+    }
+
+    .logoDiv {
+        width: 90%;
+        justify-content: center;
+        padding-right: 1rem;
+    }
+
+    .logoDumpling img {
+        height: 25px;
+        width: fit-content;
+    }
+}
+
+@media (min-width: 768px) {
+    .heroNavMobile {
+        display: none;
+    }
 }

@@ -41,7 +41,7 @@ function AboutCompany() {
             </p>
           </div>
           <div className="flex h-[90%] w-[38%] bg-gray-100">
-            <img src={aboutbg2} alt="" />
+            <img load="lazy" src={aboutbg2} alt="" />
           </div>
         </div>
       </div>

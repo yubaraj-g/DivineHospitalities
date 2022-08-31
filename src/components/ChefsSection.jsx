@@ -15,7 +15,7 @@ function ChefsSection() {
       </div>
       <div className="theChefs flex w-full px-[15rem] py-16 justify-between gap-12">
         <div className="w-[30%] h-96 bg-gray-200 flex flex-col">
-          <img src={chefReccBg} alt="" className="w-full h-3/5 bg-black z-40" />
+          <img load="lazy" src={chefReccBg} alt="" className="w-full h-3/5 bg-black z-40" />
           <div className="flex flex-col h-2/5 px-8 py-4 z-50">
             <h4 className="font-semibold">Mark Anthony</h4>
             <span className="font-thin text-xs">Head Chef</span>
@@ -26,7 +26,7 @@ function ChefsSection() {
           </div>
         </div>
         <div className="w-[30%] h-96 bg-gray-200 flex flex-col">
-          <img src={chefReccBg} alt="" className="w-full h-3/5 bg-black z-40" />
+          <img load="lazy" src={chefReccBg} alt="" className="w-full h-3/5 bg-black z-40" />
           <div className="flex flex-col h-2/5 px-8 py-4 z-50">
             <h4 className="font-semibold">Mark Anthony</h4>
             <span className="font-thin text-xs">Head Chef</span>
