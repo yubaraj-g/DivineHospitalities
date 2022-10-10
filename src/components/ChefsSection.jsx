@@ -1,6 +1,8 @@
 import React from "react";
 import "./chefsSection.css";
 import chefReccBg from '../img/chefReccBg.jpg'
+import chef1 from '../img/chef1_copy.jpg'
+import chef2 from '../img/chef2_copy.jpg'
 
 function ChefsSection() {
   return (
@@ -15,9 +17,9 @@ function ChefsSection() {
       </div>
       <div className="theChefs flex flex-col lg:flex-row w-full px-15 lg:px-[15rem] py-16 justify-center lg:justify-between gap-12">
         <div className="w-[80%] lg:w-[30%] h-[35rem] lg:h-96 bg-gray-200 flex flex-col self-center">
-          <img load="lazy" src={chefReccBg} alt="" className="w-full h-4/6 lg:h-3/5 bg-black z-40" />
+          <img load="lazy" src={chef1} alt="" className="w-full h-4/6 lg:h-3/5 bg-black z-40" />
           <div className="flex flex-col h-2/6 lg:h-2/5 px-8 py-10 lg:py-4 z-50">
-            <h4 className="font-semibold">Mark Anthony</h4>
+            <h4 className="font-semibold">Chef 1</h4>
             <span className="font-thin text-xs">Head Chef</span>
             <p className="mt-3 text-xs">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
@@ -26,10 +28,10 @@ function ChefsSection() {
           </div>
         </div>
         <div className="w-[80%] lg:w-[30%] h-[35rem] lg:h-96 bg-gray-200 flex flex-col self-center">
-          <img load="lazy" src={chefReccBg} alt="" className="w-full h-4/6 lg:h-3/5 bg-black z-40" />
+          <img load="lazy" src={chef2} alt="" className="w-full h-4/6 lg:h-3/5 bg-black z-40" />
           <div className="flex flex-col h-2/6 lg:h-2/5 px-8 py-10 lg:py-4 z-50">
-            <h4 className="font-semibold">Mark Anthony</h4>
-            <span className="font-thin text-xs">Head Chef</span>
+            <h4 className="font-semibold">Chef 2</h4>
+            <span className="font-thin text-xs">Second Chef</span>
             <p className="mt-3 text-xs">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor sociis natoque
@@ -40,7 +42,7 @@ function ChefsSection() {
           <img src={chefReccBg} alt="" className="w-full h-3/5 bg-bla h-4/6clg:k z-40" />
           <div className="flex flex-col h-2/6 lg:h-2/5 px-8 py-10 lg:py-4 z-50">
             <h4 className="font-semibold">Mark Anthony</h4>
-            <span className="font-thin text-xs">Head Chef</span>
+            <span className="font-thin text-xs">Third Chef</span>
             <p className="mt-3 text-xs">
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
               commodo ligula eget dolor sociis natoque

@@ -1,5 +1,12 @@
 import React from "react";
-import dish1 from "../img/vegSalad.jpg";
+// import dish1 from "../img/vegSalad.jpg";
+import chineseBhel from "../img/chineseBhel.jpg";
+import stuffedMushroom from "../img/stuffedMushroom.jpg";
+import vegOyster from "../img/vegOyster.jpg";
+import shanghaiSpringRoll from "../img/shanghaiSpringRoll.jpg";
+import paneerTikkaRoll from "../img/paneerTikkaRoll.jpg";
+import vegTandooriMomo from "../img/vegTandooriMomo.jpg";
+
 import "./chefRecommend.css";
 
 function ChefRecommend() {
@@ -17,7 +24,7 @@ function ChefRecommend() {
       <div className="reccDishes w-full flex flex-col px-12 lg:px-[15rem]">
         <div className="divDish1 flex flex-col lg:flex-row justify-around">
           <div className="dishDiv lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img load="lazy" src={dish1} alt="" className="w-full" />
+            <img load="lazy" src={chineseBhel} alt="chinese-bhel-tangy-tangra" className="w-full" />
             <div className="flex justify-between flex-col lg:flex-row">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-lg lg:text-sm py-1">
@@ -33,7 +40,7 @@ function ChefRecommend() {
             </div>
           </div>
           <div className="dishDiv lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img load="lazy" src={dish1} alt="" className="w-full" />
+            <img load="lazy" src={stuffedMushroom} alt="chilli-cheese-stuffed-mushroom" className="w-full" />
             <div className="flex justify-between flex-col lg:flex-row">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-lg lg:text-sm py-1">
@@ -49,7 +56,7 @@ function ChefRecommend() {
             </div>
           </div>
           <div className="dishDiv lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img load="lazy" src={dish1} alt="" className="w-full" />
+            <img load="lazy" src={vegOyster} alt="exotic-veg-oyster-sauce" className="w-full" />
             <div className="flex justify-between flex-col lg:flex-row">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-lg lg:text-sm py-1">
@@ -67,8 +74,8 @@ function ChefRecommend() {
         </div>
 
         <div className="divDish2 flex flex-col lg:flex-row justify-around">
-          <div className="w-full lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img load="lazy" src={dish1} alt="" />
+          <div className="dishDiv w-full lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
+            <img load="lazy" src={shanghaiSpringRoll} alt="shanghai-veg-spring-roll" />
             <div className="flex flex-col lg:flex-row justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-lg lg:text-sm py-1">
@@ -81,8 +88,8 @@ function ChefRecommend() {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img load="lazy" src={dish1} alt="" />
+          <div className="dishDiv w-full lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
+            <img load="lazy" src={paneerTikkaRoll} alt="paneer-tikka-roll" />
             <div className="flex justify-between flex-col lg:flex-row">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-lg lg:text-sm py-1">
@@ -95,8 +102,8 @@ function ChefRecommend() {
               </div>
             </div>
           </div>
-          <div className="w-full lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img load="lazy" src={dish1} alt="" />
+          <div className="dishDiv w-full lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
+            <img load="lazy" src={vegTandooriMomo} alt="veg-tandoori-momo" />
             <div className="flex justify-between flex-col lg:flex-row">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-lg lg:text-sm py-1">

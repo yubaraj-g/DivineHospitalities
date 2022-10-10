@@ -28,3 +28,9 @@
     gap: 3rem;
     margin-bottom: 4rem;
 }
+
+.dishDiv img {
+    height: 70%;
+    background-size: cover;
+    background-position: center;
+}

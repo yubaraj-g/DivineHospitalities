@@ -29,15 +29,13 @@ function AboutCompany() {
           <div className="flex flex-col h-[90%] w-full lg:w-[60%] bg-white text-center">
             <h2 className="text-3xl mb-8">About us : Company</h2>
             <p className="text-start text-sm font-light">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-              est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
-              velit, sed quia non numquam eius modi tempora incidunt ut labore
-              et dolore magnam aliquam quaerat voluptatem.
+            With a motive of gifting people the true delight of vegan food, Divine Dumplings was formed as a part of the chains of restaurants under Divine Hospitalities. It started functioning since September, 2022 with its first outlet at Chatribari, Guwahati.
+            <br>
+            </br>
+            <br>
+            </br>
+
+            Since its inception, it has been able to draw a lot of customers, especially the young urban crowd. With each passing day, we are getting close to our goal of acquainting all the people in the city with delectable dishes and refreshing beverages, all under the same roof. Our commercial operation is all about giving everyone the absolute dose of "divine delicacy," and we vow to continue doing so as long as we are able to keep the pot boiling.
             </p>
           </div>
           <div className="flex h-[90%] w-[80%] lg:w-[38%] bg-gray-100">
