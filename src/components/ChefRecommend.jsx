@@ -1,11 +1,11 @@
 import React from "react";
 // import dish1 from "../img/vegSalad.jpg";
-import chineseBhel from "../img/chineseBhel.jpg";
-import stuffedMushroom from "../img/stuffedMushroom.jpg";
-import vegOyster from "../img/vegOyster.jpg";
-import shanghaiSpringRoll from "../img/shanghaiSpringRoll.jpg";
-import paneerTikkaRoll from "../img/paneerTikkaRoll.jpg";
-import vegTandooriMomo from "../img/vegTandooriMomo.jpg";
+import chocolateMomo from "../img/chocolate-momo.jpg";
+import friedMomo from "../img/fried-momo.jpg";
+import steamMomo from "../img/steam-momo.jpg";
+import hakkaNoodles from "../img/veg-hakka-noodles.jpg";
+import vegCheeseBurger from "../img/veg-cheese-burger.jpg";
+import crispyVegMomo from "../img/vegTandooriMomo.jpg";
 
 import "./chefRecommend.css";
 
@@ -24,46 +24,14 @@ function ChefRecommend() {
       <div className="reccDishes w-full flex flex-col px-12 lg:px-[15rem]">
         <div className="divDish1 flex flex-col lg:flex-row justify-around">
           <div className="dishDiv lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img load="lazy" src={chineseBhel} alt="chinese-bhel-tangy-tangra" className="w-full" />
+            <img load="lazy" src={friedMomo} alt="chinese-bhel-tangy-tangra" className="w-full" />
             <div className="flex justify-between flex-col lg:flex-row">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-lg lg:text-sm py-1">
-                  Chinese Bhel Tangy Tangra
+                  Fried Momo
                 </span>
                 <span className="font-light text-md lg:text-xs">
-                  Chinese / Tangra / Bhel
-                </span>
-              </div>
-              <div className="dishPrice text-green-600 bg-white font-bold py-3 text-2xl lg:text-lg">
-                ₹89
-              </div>
-            </div>
-          </div>
-          <div className="dishDiv lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img load="lazy" src={stuffedMushroom} alt="chilli-cheese-stuffed-mushroom" className="w-full" />
-            <div className="flex justify-between flex-col lg:flex-row">
-              <div className="dishNames bg-white flex flex-col py-2">
-                <span className="font-medium text-lg lg:text-sm py-1">
-                  Chilli Cheese Stuffed Mushroom
-                </span>
-                <span className="font-light text-md lg:text-xs">
-                  Chilli / Cheese / Mushroom
-                </span>
-              </div>
-              <div className="dishPrice text-green-600 bg-white font-bold py-3 text-2xl lg:text-lg">
-                ₹109
-              </div>
-            </div>
-          </div>
-          <div className="dishDiv lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img load="lazy" src={vegOyster} alt="exotic-veg-oyster-sauce" className="w-full" />
-            <div className="flex justify-between flex-col lg:flex-row">
-              <div className="dishNames bg-white flex flex-col py-2">
-                <span className="font-medium text-lg lg:text-sm py-1">
-                  Exotic Veg in Oyster Sauce
-                </span>
-                <span className="font-light text-md lg:text-xs">
-                  Exotic / Oyster / Sauce
+                  Momo / Fried / Veg
                 </span>
               </div>
               <div className="dishPrice text-green-600 bg-white font-bold py-3 text-2xl lg:text-lg">
@@ -71,15 +39,47 @@ function ChefRecommend() {
               </div>
             </div>
           </div>
+          <div className="dishDiv lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
+            <img load="lazy" src={chocolateMomo} alt="chilli-cheese-stuffed-mushroom" className="w-full" />
+            <div className="flex justify-between flex-col lg:flex-row">
+              <div className="dishNames bg-white flex flex-col py-2">
+                <span className="font-medium text-lg lg:text-sm py-1">
+                  Chocolate Momo
+                </span>
+                <span className="font-light text-md lg:text-xs">
+                  Momo / Chocolate / Veg
+                </span>
+              </div>
+              <div className="dishPrice text-green-600 bg-white font-bold py-3 text-2xl lg:text-lg">
+                ₹49
+              </div>
+            </div>
+          </div>
+          <div className="dishDiv lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
+            <img load="lazy" src={steamMomo} alt="exotic-veg-oyster-sauce" className="w-full" />
+            <div className="flex justify-between flex-col lg:flex-row">
+              <div className="dishNames bg-white flex flex-col py-2">
+                <span className="font-medium text-lg lg:text-sm py-1">
+                  Steam Momo
+                </span>
+                <span className="font-light text-md lg:text-xs">
+                  Momo / Steam / Veg
+                </span>
+              </div>
+              <div className="dishPrice text-green-600 bg-white font-bold py-3 text-2xl lg:text-lg">
+                ₹40
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="divDish2 flex flex-col lg:flex-row justify-around">
           <div className="dishDiv w-full lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img load="lazy" src={shanghaiSpringRoll} alt="shanghai-veg-spring-roll" />
+            <img load="lazy" src={hakkaNoodles} alt="shanghai-veg-spring-roll" />
             <div className="flex flex-col lg:flex-row justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-lg lg:text-sm py-1">
-                  Shanghai Veg Spring Roll
+                  Veg Hakka Noodles
                 </span>
                 <span className="font-light text-md lg:text-xs">Chinese / Veg / Roll</span>
               </div>
@@ -89,28 +89,28 @@ function ChefRecommend() {
             </div>
           </div>
           <div className="dishDiv w-full lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img load="lazy" src={paneerTikkaRoll} alt="paneer-tikka-roll" />
+            <img load="lazy" src={vegCheeseBurger} alt="paneer-tikka-roll" />
             <div className="flex justify-between flex-col lg:flex-row">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-lg lg:text-sm py-1">
-                  Paneer Tikka Roll
+                  Veg Cheese Burger
                 </span>
-                <span className="font-light text-md lg:text-xs">Paneer / Roll</span>
+                <span className="font-light text-md lg:text-xs">Burger / Veg / Cheese</span>
               </div>
               <div className="dishPrice text-green-600 bg-white font-bold py-3 text-2xl lg:text-lg">
-                ₹89
+                ₹69
               </div>
             </div>
           </div>
           <div className="dishDiv w-full lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
-            <img load="lazy" src={vegTandooriMomo} alt="veg-tandoori-momo" />
+            <img load="lazy" src={crispyVegMomo} alt="veg-tandoori-momo" />
             <div className="flex justify-between flex-col lg:flex-row">
               <div className="dishNames bg-white flex flex-col py-2">
                 <span className="font-medium text-lg lg:text-sm py-1">
-                  Veg Tandoori Momo
+                  Crispy Veg Momo
                 </span>
                 <span className="font-light text-md lg:text-xs">
-                  Veg / Tandoori / Momo
+                  Momo / Veg / Crispy
                 </span>
               </div>
               <div className="dishPrice text-green-600 bg-white font-bold py-3 text-2xl lg:text-lg">

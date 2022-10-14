@@ -1,20 +1,20 @@
 .backgroundGallery {
-    background: url(../img/galleryBG.jpg);
+    background: url(../img/divine-dumplings.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 40%;
+    background-position: 0 60%;
 }
 
 .galleryHeadline {
     font-weight: 400;
     font-family: 'Damion';
     font-size: 48px;
-    background-color: #00000056;
+    background-color: #00000071;
     height: 50%;
 }
 
 .backgroundGallery span {
-    background-color: #00000056;
+    background-color: #00000071;
     height: 50%;
     letter-spacing: 2px;
     font-family: 'Raleway';
