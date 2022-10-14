@@ -5,6 +5,15 @@
     background-position: 0 60%;
 }
 
+/* @media (max-width: 500px) {
+    .backgroundGallery {
+        background: url(../img/divine-dumplings.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 -80%;
+    }
+} */
+
 .galleryHeadline {
     font-weight: 400;
     font-family: 'Damion';

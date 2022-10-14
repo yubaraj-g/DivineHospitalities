@@ -23,7 +23,7 @@ function ChefRecommend() {
 
       <div className="reccDishes w-full flex flex-col px-12 lg:px-[15rem]">
         <div className="divDish1 flex flex-col lg:flex-row justify-around">
-          <div className="dishDiv lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
+          <div className="dishDiv lg:w-[250px] bg-white flex flex-col hover:shadow-lg hover:duration-100">
             <img load="lazy" src={friedMomo} alt="chinese-bhel-tangy-tangra" className="w-full" />
             <div className="flex justify-between flex-col lg:flex-row">
               <div className="dishNames bg-white flex flex-col py-2">
@@ -39,7 +39,7 @@ function ChefRecommend() {
               </div>
             </div>
           </div>
-          <div className="dishDiv lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
+          <div className="dishDiv lg:w-[250px] bg-white flex flex-col hover:shadow-lg hover:duration-100">
             <img load="lazy" src={chocolateMomo} alt="chilli-cheese-stuffed-mushroom" className="w-full" />
             <div className="flex justify-between flex-col lg:flex-row">
               <div className="dishNames bg-white flex flex-col py-2">
@@ -55,7 +55,7 @@ function ChefRecommend() {
               </div>
             </div>
           </div>
-          <div className="dishDiv lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
+          <div className="dishDiv lg:w-[250px] bg-white flex flex-col hover:shadow-lg hover:duration-100">
             <img load="lazy" src={steamMomo} alt="exotic-veg-oyster-sauce" className="w-full" />
             <div className="flex justify-between flex-col lg:flex-row">
               <div className="dishNames bg-white flex flex-col py-2">
@@ -74,7 +74,7 @@ function ChefRecommend() {
         </div>
 
         <div className="divDish2 flex flex-col lg:flex-row justify-around">
-          <div className="dishDiv w-full lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
+          <div className="dishDiv w-full lg:w-[250px] bg-white flex flex-col hover:shadow-lg hover:duration-100">
             <img load="lazy" src={hakkaNoodles} alt="shanghai-veg-spring-roll" />
             <div className="flex flex-col lg:flex-row justify-between">
               <div className="dishNames bg-white flex flex-col py-2">
@@ -88,7 +88,7 @@ function ChefRecommend() {
               </div>
             </div>
           </div>
-          <div className="dishDiv w-full lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
+          <div className="dishDiv w-full lg:w-[250px] bg-white flex flex-col hover:shadow-lg hover:duration-100">
             <img load="lazy" src={vegCheeseBurger} alt="paneer-tikka-roll" />
             <div className="flex justify-between flex-col lg:flex-row">
               <div className="dishNames bg-white flex flex-col py-2">
@@ -102,7 +102,7 @@ function ChefRecommend() {
               </div>
             </div>
           </div>
-          <div className="dishDiv w-full lg:w-[250px] bg-white flex flex-col hover:shadow-2xl hover:duration-100">
+          <div className="dishDiv w-full lg:w-[250px] bg-white flex flex-col hover:shadow-lg hover:duration-100">
             <img load="lazy" src={crispyVegMomo} alt="veg-tandoori-momo" />
             <div className="flex justify-between flex-col lg:flex-row">
               <div className="dishNames bg-white flex flex-col py-2">
