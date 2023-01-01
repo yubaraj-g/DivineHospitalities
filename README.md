@@ -1,3 +1,5 @@
+# A restaurant website built in React and TailwindCSS + CSS3, includes a landing page
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
